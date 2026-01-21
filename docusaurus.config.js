@@ -25,7 +25,17 @@ const config = {
   projectName: 'liaocy.net', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // onBrokenMarkdownLinks: 'warn', // Deprecated
+  markdown: {
+    format: 'mdx',
+    mermaid: true,
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+    // Using default behavior for broken markdown links which is usually 'warn'
+  },
   trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
@@ -61,7 +71,7 @@ const config = {
   },
 
   // plugins: [[ require.resolve('docusaurus-lunr-search'), {
-    // languages: ['en', 'ja', 'zh'] // language codes
+  // languages: ['en', 'ja', 'zh'] // language codes
   // }]],
 
   presets: [
@@ -180,7 +190,7 @@ const config = {
         indexPages: false,
         language: ['en', 'ja', 'zh'],
         lunr: {
-            tokenizerSeparator: /[\s\-\u{3000}-\u{301C}\u{3041}-\u{3093}\u{309B}-\u{309E}]+/gu
+          tokenizerSeparator: /[\s\-\u{3000}-\u{301C}\u{3041}-\u{3093}\u{309B}-\u{309E}]+/gu
         }
       },
     ],
