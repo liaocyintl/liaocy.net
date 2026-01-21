@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 // import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import ResumeTimeLine from '@site/src/components/TimeLine';
 import SkillWordCloud from '@site/src/components/SkillWordCloud';
+import TechBackground from '@site/src/components/TechBackground';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import React, { useEffect, useState } from 'react';
@@ -33,7 +34,8 @@ function HomepageHeader() {
 
   return (
     <header className={styles.heroBanner}>
-      <div className="container">
+      <TechBackground />
+      <div className="container" style={{ zIndex: 1, position: 'relative' }}>
         <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
         </Heading>
