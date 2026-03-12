@@ -27,6 +27,20 @@ const ResumeList: ResumeItem[] = [
   },
   {
     type: Type.Certification,
+    date: 'February 2026',
+    title: 'AWS Certified Solutions Architect – Professional',
+    subtitle: 'AWS Training & Certification',
+    description: 'https://www.credly.com/badges/8db2f461-7ccf-49bc-b160-5e58d2304482/linked_in_profile',
+  },
+  {
+    type: Type.Certification,
+    date: 'September 2025',
+    title: 'AWS Certified Advanced Networking – Specialty',
+    subtitle: 'AWS Training & Certification',
+    description: 'https://www.credly.com/badges/bcc19bc2-a57c-494d-940d-00c466963970/linked_in_profile',
+  },
+  {
+    type: Type.Certification,
     date: 'Feb 2025',
     title: 'AWS Certified Machine Learning Engineer – Associate',
     subtitle: 'AWS Training & Certification',
