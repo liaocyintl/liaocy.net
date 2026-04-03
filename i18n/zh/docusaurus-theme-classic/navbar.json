@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "廖 宸一",
+    "message": "廖宸一",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "廖 宸一",
+    "message": "廖宸一",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {

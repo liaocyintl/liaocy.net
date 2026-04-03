@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chenyi (Jackie) Liao',
+  title: 'Chenyi Liao',
   tagline: 'Senior System Engineer at TOYOTA Motor Corporation, Ph.D. in Computer Science',
   favicon: 'img/favicon.ico',
 
@@ -108,11 +108,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Chenyi (Jackie) Liao',
-        logo: {
-          alt: 'Chenyi (Jackie) Liao',
-          src: 'img/logo.png',
-        },
+        title: 'Chenyi Liao',
         items: [
           {
             to: '/about',

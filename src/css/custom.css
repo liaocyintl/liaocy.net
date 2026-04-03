@@ -87,6 +87,42 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.01em;
 }
 
+/* Mobile sidebar — ensure full height and solid background */
+.navbar-sidebar {
+  background: var(--ifm-background-color);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.navbar-sidebar .navbar-sidebar__items {
+  height: auto;
+}
+
+.navbar-sidebar__backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Mobile navbar — prevent overlapping elements */
+@media (max-width: 996px) {
+  .navbar__items--right {
+    gap: 4px;
+  }
+
+  .navbar__items--right > * {
+    flex-shrink: 1;
+  }
+
+  /* Hide search placeholder text on mobile, show only icon */
+  .aa-DetachedSearchButtonPlaceholder {
+    display: none !important;
+  }
+
+  .aa-DetachedSearchButton {
+    padding: 6px 10px !important;
+    min-width: auto !important;
+  }
+}
+
 /* Buttons — refined */
 .button {
   border-radius: 8px;
@@ -114,14 +150,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--ifm-background-surface-color);
 }
 
-/* Smooth scroll & prevent horizontal overflow on mobile */
+/* Smooth scroll */
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 
