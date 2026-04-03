@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from 'react';
+import { useColorMode } from '@docusaurus/theme-common';
 
 const TechBackground = () => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
+    const { colorMode } = useColorMode();
 
     useEffect(() => {
         const canvas = canvasRef.current;
@@ -12,6 +14,11 @@ const TechBackground = () => {
 
         let width = canvas.width = window.innerWidth;
         let height = canvas.height = window.innerHeight;
+
+        // Theme-aware colors
+        const particleColor = colorMode === 'dark'
+            ? { r: 77, g: 184, b: 255 }   // Tech blue for dark
+            : { r: 0, g: 102, b: 204 };    // Deeper blue for light
 
         const particles: Particle[] = [];
         const particleCount = Math.min(width * 0.1, 100); // Responsive count
@@ -44,7 +51,7 @@ const TechBackground = () => {
                 if (!ctx) return;
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fillStyle = 'rgba(77, 184, 255, 0.5)'; // Tech blue
+                ctx.fillStyle = `rgba(${particleColor.r}, ${particleColor.g}, ${particleColor.b}, 0.5)`;
                 ctx.fill();
             }
         }
@@ -67,7 +74,7 @@ const TechBackground = () => {
 
                     if (distance < connectionDistance) {
                         ctx.beginPath();
-                        ctx.strokeStyle = `rgba(77, 184, 255, ${1 - distance / connectionDistance})`;
+                        ctx.strokeStyle = `rgba(${particleColor.r}, ${particleColor.g}, ${particleColor.b}, ${1 - distance / connectionDistance})`;
                         ctx.lineWidth = 1;
                         ctx.moveTo(particle.x, particle.y);
                         ctx.lineTo(particles[j].x, particles[j].y);
@@ -90,7 +97,7 @@ const TechBackground = () => {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [colorMode]);
 
     return (
         <canvas

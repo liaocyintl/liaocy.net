@@ -2,6 +2,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faCertificate, faSchool } from '@fortawesome/free-solid-svg-icons'
+import { useColorMode } from '@docusaurus/theme-common';
 
 enum Type {
   Certification,
@@ -217,16 +218,16 @@ const ResumeList: ResumeItem[] = [
 ];
 
 function Resume({ type, date, title, subtitle, description }: ResumeItem) {
+  const { colorMode } = useColorMode();
+  const isDark = colorMode === 'dark';
+
   let className = 'vertical-timeline-element--work';
-  // Default icons
   let icon = <FontAwesomeIcon icon={faBriefcase} />;
 
-  // Use theme variables for consistency (or transparent backgrounds with borders for cyber look)
-  // darker backgrounds for the cards to fit the dark theme
-  const cardBackground = '#161b22'; // Surface color
-  const cardColor = '#fff';
+  const cardBackground = isDark ? '#161b22' : '#ffffff';
+  const cardColor = isDark ? '#fff' : '#1c1e21';
 
-  let contentStyle = { background: cardBackground, color: cardColor, border: '1px solid var(--ifm-color-primary)', boxShadow: '0 0 10px rgba(0, 102, 204, 0.2)' };
+  let contentStyle = { background: cardBackground, color: cardColor, border: '1px solid var(--ifm-color-primary)', boxShadow: isDark ? '0 0 10px rgba(0, 102, 204, 0.2)' : '0 2px 8px rgba(0, 0, 0, 0.1)' };
   let contentArrowStyle = { borderRight: '7px solid var(--ifm-color-primary)' };
   let iconStyle = { background: 'var(--ifm-color-primary)', color: '#fff' };
 
@@ -268,7 +269,7 @@ function Resume({ type, date, title, subtitle, description }: ResumeItem) {
       iconStyle={iconStyle}
       icon={icon}
     >
-      <h3 className="vertical-timeline-element-title" style={{ color: 'var(--ifm-color-primary-lightest)' }}>{title}</h3>
+      <h3 className="vertical-timeline-element-title" style={{ color: isDark ? 'var(--ifm-color-primary-lightest)' : 'var(--ifm-color-primary-dark)' }}>{title}</h3>
       <h4 className="vertical-timeline-element-subtitle" style={{ opacity: 0.8 }}>{subtitle}</h4>
       <p style={{ opacity: 0.9 }}>
         {description}

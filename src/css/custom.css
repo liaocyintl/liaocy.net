@@ -45,6 +45,22 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Light mode: vertical timeline line & date text */
+:root .vertical-timeline::before {
+  background: #d1d5db;
+}
+:root .vertical-timeline-element-date {
+  color: #4b5563;
+}
+
+/* Dark mode: vertical timeline line & date text */
+[data-theme='dark'] .vertical-timeline::before {
+  background: #30363d;
+}
+[data-theme='dark'] .vertical-timeline-element-date {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* Global Styles */
 .hero {
   background-color: var(--ifm-background-surface-color);

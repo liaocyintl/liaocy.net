@@ -19,6 +19,10 @@
   background: radial-gradient(circle at center, rgba(77, 184, 255, 0.1) 0%, transparent 70%);
 }
 
+[data-theme='light'] .heroBanner {
+  background: radial-gradient(circle at center, rgba(0, 102, 204, 0.08) 0%, transparent 70%);
+}
+
 .cursor {
   display: inline-block;
   margin-left: 2px;
