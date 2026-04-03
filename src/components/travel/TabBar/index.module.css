@@ -3,47 +3,41 @@
   top: 60px;
   z-index: 100;
   display: flex;
+  justify-content: center;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background: #0d1117;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+  background: var(--ifm-navbar-background-color);
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
 }
 
 .tabBar::-webkit-scrollbar {
   display: none;
 }
 
-[data-theme='light'] .tabBar {
-  background: #ffffff;
-  border-bottom: 1px solid #e0e0e0;
-}
-
 .tab {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.25rem;
+  padding: 0.85rem 1.5rem;
   border: none;
   background: none;
-  color: #8b949e;
+  color: var(--ifm-color-emphasis-600);
   font-size: 0.95rem;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 500;
   cursor: pointer;
   white-space: nowrap;
-  border-bottom: 3px solid transparent;
-  transition: color 0.2s, border-color 0.2s;
+  border-bottom: 2.5px solid transparent;
+  transition: color 0.2s, border-color 0.25s, background 0.2s;
+  letter-spacing: -0.01em;
 }
 
 .tab:hover {
-  color: var(--ifm-color-primary-light);
-}
-
-[data-theme='light'] .tab {
-  color: #57606a;
-}
-
-[data-theme='light'] .tab:hover {
   color: var(--ifm-color-primary);
+  background: rgba(128, 128, 128, 0.06);
 }
 
 .tabActive {
@@ -52,18 +46,17 @@
   font-weight: 600;
 }
 
-[data-theme='light'] .tabActive {
-  color: var(--ifm-color-primary);
-  border-bottom-color: var(--ifm-color-primary);
-}
-
 .tabIcon {
   font-size: 1.1rem;
 }
 
 @media screen and (max-width: 768px) {
+  .tabBar {
+    justify-content: flex-start;
+  }
+
   .tab {
-    padding: 0.5rem 0.75rem;
+    padding: 0.65rem 1rem;
     font-size: 0.85rem;
   }
 }

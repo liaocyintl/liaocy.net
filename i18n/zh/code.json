@@ -518,5 +518,17 @@
   "aus.lifestyle.shopping.asianGroceries": { "message": "亚洲超市" },
   "aus.lifestyle.shopping.online": { "message": "网上购物" },
   "aus.lifestyle.shopping.tipping": { "message": "小费文化" },
-  "aus.lifestyle.shopping.salesEvents": { "message": "促销活动" }
+  "aus.lifestyle.shopping.salesEvents": { "message": "促销活动" },
+
+  "homepage.module.about": { "message": "关于我" },
+  "homepage.module.about.desc": { "message": "经历、资格与背景" },
+  "homepage.module.travel": { "message": "游天下" },
+  "homepage.module.travel.desc": { "message": "海外留学与生活指南" },
+  "homepage.module.blog": { "message": "博客" },
+  "homepage.module.blog.desc": { "message": "技术文章与随想" },
+
+  "about.pageTitle": { "message": "关于我" },
+  "about.heroTitle": { "message": "关于我" },
+  "about.heroSubtitle": { "message": "丰田汽车公司 高级系统工程师｜计算机科学博士" },
+  "about.experienceCerts": { "message": "经历与资格" }
 }

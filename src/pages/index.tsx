@@ -2,23 +2,19 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-// import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import ResumeTimeLine from '@site/src/components/TimeLine';
-import SkillWordCloud from '@site/src/components/SkillWordCloud';
 import TechBackground from '@site/src/components/TechBackground';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import React, { useEffect, useState } from 'react';
 import { translate } from '@docusaurus/Translate';
 
-// Typing effect hook
 const useTypewriter = (text: string, speed = 50) => {
   const [displayText, setDisplayText] = useState('');
   useEffect(() => {
     let i = 0;
     const timer = setInterval(() => {
       if (i < text.length) {
-        setDisplayText((prev) => text.substring(0, i + 1));
+        setDisplayText(() => text.substring(0, i + 1));
         i++;
       } else {
         clearInterval(timer);
@@ -28,6 +24,21 @@ const useTypewriter = (text: string, speed = 50) => {
   }, [text, speed]);
   return displayText;
 };
+
+const modules = [
+  {
+    emoji: '👤',
+    title: translate({ id: 'homepage.module.about', message: 'About Me' }),
+    desc: translate({ id: 'homepage.module.about.desc', message: 'Experience, certifications, and background' }),
+    link: '/about',
+  },
+  {
+    emoji: '🌏',
+    title: translate({ id: 'homepage.module.travel', message: 'Explore the World' }),
+    desc: translate({ id: 'homepage.module.travel.desc', message: 'Guides for studying and living abroad' }),
+    link: '/travel',
+  },
+];
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -43,17 +54,13 @@ function HomepageHeader() {
         <p className={styles.heroSubtitle}>
           {tagline} <span className={styles.cursor}>|</span>
         </p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog">
-            {translate({id: 'homepage.technicalBlog', message: 'Technical Blog'})}
-          </Link>
-          <Link
-            className="button button--outline button--primary button--lg"
-            href="https://github.com/liaocy-net/liaocy.net">
-            GitHub
-          </Link>
+        <div className={styles.moduleRow}>
+          {modules.map((mod) => (
+            <Link key={mod.link} to={mod.link} className={styles.moduleChip}>
+              <span className={styles.chipEmoji}>{mod.emoji}</span>
+              <span className={styles.chipText}>{mod.title}</span>
+            </Link>
+          ))}
         </div>
       </div>
     </header>
@@ -67,17 +74,6 @@ export default function Home(): JSX.Element {
       title={`${siteConfig.title}`}
       description="Senior System Engineer at TOYOTA Motor Corporation | Ph.D. in Computer Science">
       <HomepageHeader />
-      <main>
-        <section className={styles.section}>
-          <Heading as="h2" className={clsx(styles.sectionTitle)}>{translate({id: 'homepage.technicalSkills', message: 'Technical Skills'})}</Heading>
-          <SkillWordCloud />
-        </section>
-
-        <section className={styles.section}>
-          <Heading as="h2" className={styles.sectionTitle}>{translate({id: 'homepage.experienceCerts', message: 'Experience & Certifications'})}</Heading>
-          <ResumeTimeLine />
-        </section>
-      </main>
     </Layout>
   );
 }

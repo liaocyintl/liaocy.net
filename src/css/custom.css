@@ -4,44 +4,50 @@
  * work well for content-centric websites.
  */
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap');
+/* Import Google Fonts — technical, precise, engineered */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Tech Theme - Light Mode (Clean & Sharp) */
-  --ifm-color-primary: #0066cc;
-  --ifm-color-primary-dark: #005cb8;
-  --ifm-color-primary-darker: #0057ae;
-  --ifm-color-primary-darkest: #00478f;
-  --ifm-color-primary-light: #1a7ae6;
-  --ifm-color-primary-lighter: #2684ed;
-  --ifm-color-primary-lightest: #4d9fff;
-  
-  --ifm-font-family-base: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
-  --ifm-font-family-monospace: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  
+  /* Refined Tech Theme - Light Mode */
+  --ifm-color-primary: #1a5cff;
+  --ifm-color-primary-dark: #0f4de6;
+  --ifm-color-primary-darker: #0a44d9;
+  --ifm-color-primary-darkest: #0636b3;
+  --ifm-color-primary-light: #3d73ff;
+  --ifm-color-primary-lighter: #4a7dff;
+  --ifm-color-primary-lightest: #7da3ff;
+
+  --ifm-color-accent: #f97316;
+
+  --ifm-font-family-base: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'IBM Plex Mono', SFMono-Regular, Menlo, Monaco, monospace;
+  --ifm-heading-font-family: 'IBM Plex Sans', var(--ifm-font-family-base);
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  
-  --ifm-background-color: #f5f6f7;
-  --ifm-navbar-background-color: #ffffff;
+
+  --ifm-background-color: #f8f9fb;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.82);
+  --ifm-global-radius: 0.5rem;
 }
 
-/* Tech Theme - Dark Mode (Cyber/Deep Space) */
+/* Refined Tech Theme - Dark Mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #4db8ff;
-  --ifm-color-primary-dark: #2da1f0;
-  --ifm-color-primary-darker: #1e96e6;
-  --ifm-color-primary-darkest: #0073bf;
-  --ifm-color-primary-light: #6ecfff;
-  --ifm-color-primary-lighter: #7ed6ff;
-  --ifm-color-primary-lightest: #b0e8ff;
-  
-  --ifm-background-color: #0b1015; /* Deep blue-black */
-  --ifm-background-surface-color: #161b22;
-  
-  --ifm-navbar-background-color: #0b1015;
-  
+  --ifm-color-primary: #5b9eff;
+  --ifm-color-primary-dark: #3a85ff;
+  --ifm-color-primary-darker: #2a79ff;
+  --ifm-color-primary-darkest: #005cf5;
+  --ifm-color-primary-light: #7cb7ff;
+  --ifm-color-primary-lighter: #8cc0ff;
+  --ifm-color-primary-lightest: #c0ddff;
+
+  --ifm-color-accent: #fb923c;
+
+  --ifm-background-color: #090c10;
+  --ifm-background-surface-color: #13171e;
+
+  --ifm-navbar-background-color: rgba(9, 12, 16, 0.82);
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -61,17 +67,212 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Headings use display font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ifm-heading-font-family);
+  letter-spacing: -0.02em;
+}
+
+/* Navbar — frosted glass effect */
+.navbar {
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Buttons — refined */
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: var(--ifm-heading-font-family);
+  letter-spacing: -0.01em;
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-dark));
+}
+
+.button--secondary {
+  border: 1.5px solid var(--ifm-color-primary);
+}
+
 /* Global Styles */
 .hero {
   background-color: var(--ifm-background-surface-color);
 }
 
-.button--primary {
-  border-radius: 4px; /* Sharper corners for tech look */
+/* Smooth scroll & prevent horizontal overflow on mobile */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* Selection color */
+::selection {
+  background: var(--ifm-color-primary);
+  color: #fff;
 }
 
 /* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* ========== Search Bar — polished & rounded ========== */
+
+/* Navbar search button (collapsed state) */
+.aa-DetachedSearchButton {
+  border-radius: 24px !important;
+  border: 1px solid rgba(128, 128, 128, 0.2) !important;
+  background: rgba(128, 128, 128, 0.06) !important;
+  padding: 6px 14px !important;
+  transition: all 0.25s ease !important;
+  gap: 8px !important;
+}
+
+.aa-DetachedSearchButton:hover {
+  border-color: var(--ifm-color-primary) !important;
+  background: rgba(128, 128, 128, 0.1) !important;
+}
+
+.aa-DetachedSearchButtonIcon {
+  color: var(--ifm-color-emphasis-500) !important;
+}
+
+.aa-DetachedSearchButtonPlaceholder {
+  font-family: var(--ifm-font-family-base) !important;
+  font-size: 0.85rem !important;
+}
+
+/* Detached modal overlay */
+.aa-DetachedOverlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+}
+
+/* Modal container */
+.aa-DetachedContainer {
+  border-radius: 16px !important;
+  border: 1px solid rgba(128, 128, 128, 0.15) !important;
+  overflow: hidden !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.25) !important;
+  max-width: 640px !important;
+}
+
+[data-theme='light'] .aa-DetachedContainer {
+  background: #ffffff !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.12) !important;
+}
+
+[data-theme='dark'] .aa-DetachedContainer {
+  background: #13171e !important;
+}
+
+/* Search input area inside modal */
+.aa-DetachedFormContainer {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.12) !important;
+  padding: 4px !important;
+}
+
+.aa-Form {
+  border-radius: 12px !important;
+  border: 1.5px solid rgba(128, 128, 128, 0.15) !important;
+  background: rgba(128, 128, 128, 0.04) !important;
+  transition: border-color 0.2s !important;
+}
+
+.aa-Form:focus-within {
+  border-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 0 0 3px rgba(91, 158, 255, 0.15) !important;
+}
+
+.aa-Input {
+  font-family: var(--ifm-font-family-base) !important;
+  font-size: 1rem !important;
+}
+
+/* Cancel button */
+.aa-DetachedCancelButton {
+  border-radius: 8px !important;
+  font-family: var(--ifm-font-family-base) !important;
+}
+
+/* Results panel */
+.aa-Panel {
+  font-family: var(--ifm-font-family-base) !important;
+}
+
+/* Result items */
+.aa-Item {
+  border-radius: 10px !important;
+  margin: 2px 6px !important;
+  padding: 8px 12px !important;
+  transition: background 0.15s !important;
+}
+
+.aa-Item[aria-selected="true"] {
+  background: rgba(91, 158, 255, 0.1) !important;
+}
+
+[data-theme='dark'] .aa-Item[aria-selected="true"] {
+  background: rgba(91, 158, 255, 0.12) !important;
+}
+
+.aa-ItemContentTitle {
+  font-size: 0.9rem !important;
+}
+
+.aa-ItemContentDescription {
+  font-size: 0.8rem !important;
+  opacity: 0.7 !important;
+}
+
+/* Source headers */
+.aa-SourceHeader {
+  margin: 4px 8px !important;
+}
+
+.aa-SourceHeaderTitle {
+  font-family: var(--ifm-heading-font-family) !important;
+  font-weight: 600 !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+}
+
+/* Footer */
+.aa-PanelFooter {
+  border-top: 1px solid rgba(128, 128, 128, 0.1) !important;
+  border-radius: 0 0 16px 16px !important;
+  font-size: 0.8rem !important;
 }

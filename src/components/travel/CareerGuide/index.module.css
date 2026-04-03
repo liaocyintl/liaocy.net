@@ -75,6 +75,9 @@
   flex-direction: column;
   gap: 12px;
   transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  min-width: 0;
+  word-break: break-word;
 }
 
 .card:hover {
@@ -230,4 +233,31 @@
   color: #eab308;
   font-weight: 700;
   font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    padding: 14px;
+  }
+
+  .cardName {
+    font-size: 1rem;
+  }
+
+  .cardDesc {
+    font-size: 0.82rem;
+  }
+
+  .filterTabs {
+    gap: 6px;
+  }
+
+  .filterTab {
+    padding: 5px 12px;
+    font-size: 0.8rem;
+  }
 }

@@ -9,6 +9,7 @@
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
   width: 100vw;
+  max-width: 100vw;
   position: relative;
   z-index: 0;
 }
@@ -126,17 +127,40 @@
   .container {
     flex-direction: column;
     height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    border-radius: 0;
   }
 
   .mapPane {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
+    min-height: 280px;
   }
 
   .sidePanel {
     width: 100%;
-    height: 400px;
+    height: 50vh;
     border-left: none;
     border-top: 1px solid var(--ifm-color-emphasis-200);
+  }
+
+  .filterRow {
+    padding: 8px;
+    gap: 4px;
+  }
+
+  .filterBtn {
+    padding: 3px 10px;
+    font-size: 0.75rem;
+  }
+
+  .uniCard {
+    padding: 10px;
+  }
+
+  .uniName {
+    font-size: 0.88rem;
   }
 }

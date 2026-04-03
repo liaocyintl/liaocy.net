@@ -70,6 +70,9 @@
   flex-direction: column;
   gap: 10px;
   transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  min-width: 0;
+  word-break: break-word;
 }
 
 .card:hover {
@@ -468,4 +471,63 @@
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--ifm-color-primary);
+}
+
+/* ── Mobile responsive ── */
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 1.25rem;
+    margin: 24px 0 12px;
+  }
+
+  .subSectionTitle {
+    font-size: 1.05rem;
+  }
+
+  .pillRow {
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .pill {
+    padding: 5px 14px;
+    font-size: 0.8rem;
+  }
+
+  .card {
+    padding: 14px;
+  }
+
+  .scheduleDay {
+    padding: 14px;
+  }
+
+  .timeSlot {
+    gap: 8px;
+  }
+
+  .time {
+    font-size: 0.78rem;
+    min-width: 44px;
+  }
+
+  .activity {
+    font-size: 0.82rem;
+  }
+
+  .budgetTable th,
+  .budgetTable td {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+  }
+
+  .infoBox {
+    padding: 12px 14px;
+    font-size: 0.85rem;
+  }
+
+  .tipList li {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
 }

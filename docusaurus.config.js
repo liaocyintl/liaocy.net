@@ -115,6 +115,11 @@ const config = {
         },
         items: [
           {
+            to: '/about',
+            label: 'About',
+            position: 'left',
+          },
+          {
             type: 'dropdown',
             label: 'Explore',
             position: 'left',

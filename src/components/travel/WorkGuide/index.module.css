@@ -84,7 +84,7 @@
 
 .resultBox {
   flex: 1;
-  min-width: 140px;
+  min-width: 0;
   border-radius: 10px;
   padding: 16px;
   text-align: center;
@@ -183,6 +183,8 @@
   flex-direction: column;
   gap: 12px;
   transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  min-width: 0;
 }
 
 .jobCard:hover {
@@ -220,6 +222,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
+  min-width: 0;
 }
 
 .metaItem {
@@ -239,6 +242,8 @@
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--ifm-color-content);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .categoryBadge {
@@ -281,8 +286,25 @@
 .visaTable {
   width: 100%;
   border-collapse: collapse;
-  min-width: 700px;
+  min-width: 600px;
   font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .visaTable {
+    min-width: 500px;
+    font-size: 0.8rem;
+  }
+
+  .visaTable th,
+  .visaTable td {
+    padding: 8px 10px;
+  }
+
+  .visaTable .rowLabel {
+    width: 80px;
+    font-size: 0.75rem;
+  }
 }
 
 .visaTable th,
@@ -359,4 +381,70 @@
   font-weight: 600;
   font-size: 0.8rem;
   margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .calculator {
+    padding: 16px;
+  }
+
+  .calcInputs {
+    gap: 12px;
+  }
+
+  .inputGroup input {
+    width: 100%;
+  }
+
+  .inputGroup {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .calcResults {
+    gap: 10px;
+  }
+
+  .resultBox {
+    min-width: 0;
+    flex-basis: calc(50% - 5px);
+    padding: 12px 8px;
+  }
+
+  .resultValue {
+    font-size: 1.1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.25rem;
+  }
+
+  .jobCard {
+    padding: 14px;
+  }
+
+  .jobName {
+    font-size: 1rem;
+  }
+
+  .jobMeta {
+    gap: 6px;
+  }
+
+  .metaLabel {
+    font-size: 0.65rem;
+  }
+
+  .metaValue {
+    font-size: 0.82rem;
+  }
+
+  .filterTabs {
+    gap: 6px;
+  }
+
+  .filterTab {
+    padding: 5px 12px;
+    font-size: 0.8rem;
+  }
 }

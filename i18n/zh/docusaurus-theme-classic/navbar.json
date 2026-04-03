@@ -30,5 +30,9 @@
   "item.label.Study in Australia": {
     "message": "澳大利亚留学指南",
     "description": "Navbar item with label Study in Australia"
+  },
+  "item.label.About": {
+    "message": "关于我",
+    "description": "Navbar item with label About"
   }
 }

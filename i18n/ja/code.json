@@ -518,5 +518,17 @@
   "aus.lifestyle.shopping.asianGroceries": { "message": "アジア食材店" },
   "aus.lifestyle.shopping.online": { "message": "オンラインショッピング" },
   "aus.lifestyle.shopping.tipping": { "message": "チップ文化" },
-  "aus.lifestyle.shopping.salesEvents": { "message": "セールイベント" }
+  "aus.lifestyle.shopping.salesEvents": { "message": "セールイベント" },
+
+  "homepage.module.about": { "message": "自己紹介" },
+  "homepage.module.about.desc": { "message": "経歴、資格、バックグラウンド" },
+  "homepage.module.travel": { "message": "世界を巡る" },
+  "homepage.module.travel.desc": { "message": "海外留学・生活ガイド" },
+  "homepage.module.blog": { "message": "ブログ" },
+  "homepage.module.blog.desc": { "message": "技術記事と考察" },
+
+  "about.pageTitle": { "message": "自己紹介" },
+  "about.heroTitle": { "message": "自己紹介" },
+  "about.heroSubtitle": { "message": "トヨタ自動車株式会社 シニアシステムエンジニア｜コンピュータサイエンス博士" },
+  "about.experienceCerts": { "message": "経歴・資格" }
 }
