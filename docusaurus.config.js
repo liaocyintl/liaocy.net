@@ -123,6 +123,7 @@ const config = {
               {
                 to: '/travel',
                 label: 'Overview',
+                activeBaseRegex: '^/travel/?$',
               },
               {
                 to: '/travel/australia',
@@ -138,6 +139,7 @@ const config = {
               {
                 to: '/sports',
                 label: 'Overview',
+                activeBaseRegex: '^/sports/?$',
               },
               {
                 to: '/sports/table-tennis',
