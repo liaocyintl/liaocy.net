@@ -20,5 +20,15 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+      - name: Cache Docusaurus build
+        uses: actions/cache@v4
+        with:
+          path: |
+            .docusaurus
+            build
+          key: docusaurus-${{ runner.os }}-${{ hashFiles('yarn.lock') }}-${{ hashFiles('src/**', 'docs/**', 'blog/**', 'i18n/**', 'docusaurus.config.js') }}
+          restore-keys: |
+            docusaurus-${{ runner.os }}-${{ hashFiles('yarn.lock') }}-
+            docusaurus-${{ runner.os }}-
       - name: Test build website
         run: yarn build
