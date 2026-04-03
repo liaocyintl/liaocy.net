@@ -7,6 +7,7 @@ import styles from './australia.module.css';
 const UniversityMap = lazy(() => import('@site/src/components/travel/UniversityMap'));
 const CityGuide = lazy(() => import('@site/src/components/travel/CityGuide'));
 const WorkGuide = lazy(() => import('@site/src/components/travel/WorkGuide'));
+const CareerGuide = lazy(() => import('@site/src/components/travel/CareerGuide'));
 
 const TABS: Tab[] = [
   {
@@ -77,7 +78,9 @@ export default function AustraliaPage(): JSX.Element {
           </Suspense>
         )}
         {activeTab === 'career' && (
-          <div className={styles.placeholder}>Career module coming soon...</div>
+          <Suspense fallback={<div className={styles.placeholder}>Loading...</div>}>
+            <CareerGuide />
+          </Suspense>
         )}
         {activeTab === 'lifestyle' && (
           <div className={styles.placeholder}>Lifestyle module coming soon...</div>

@@ -460,5 +460,22 @@
   "aus.work.eligibility": { "message": "申請条件" },
   "aus.work.prosAndCons": { "message": "メリット・デメリット" },
   "aus.work.pros": { "message": "メリット" },
-  "aus.work.cons": { "message": "デメリット" }
+  "aus.work.cons": { "message": "デメリット" },
+
+  "aus.career.industries": { "message": "業界概要" },
+  "aus.career.employers": { "message": "企業一覧" },
+  "aus.career.all": { "message": "すべて" },
+  "aus.career.avgSalary": { "message": "平均年収" },
+  "aus.career.salaryRange": { "message": "年収範囲" },
+  "aus.career.weeklyHours": { "message": "週間勤務時間" },
+  "aus.career.employees": { "message": "従業員数" },
+  "aus.career.growthRate": { "message": "成長率" },
+  "aus.career.demand": { "message": "需要" },
+  "aus.career.visaFriendly": { "message": "ビザフレンドリー" },
+  "aus.career.industry": { "message": "業界" },
+  "aus.career.headquarters": { "message": "本社" },
+  "aus.career.auEmployees": { "message": "豪州社員数" },
+  "aus.career.gradSalary": { "message": "新卒年収" },
+  "aus.career.visaSponsor": { "message": "ビザスポンサー" },
+  "aus.career.glassdoor": { "message": "Glassdoor" }
 }

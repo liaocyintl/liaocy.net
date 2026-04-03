@@ -460,5 +460,22 @@
   "aus.work.eligibility": { "message": "申请条件" },
   "aus.work.prosAndCons": { "message": "优缺点" },
   "aus.work.pros": { "message": "优点" },
-  "aus.work.cons": { "message": "缺点" }
+  "aus.work.cons": { "message": "缺点" },
+
+  "aus.career.industries": { "message": "行业概览" },
+  "aus.career.employers": { "message": "雇主名录" },
+  "aus.career.all": { "message": "全部" },
+  "aus.career.avgSalary": { "message": "平均年薪" },
+  "aus.career.salaryRange": { "message": "薪资范围" },
+  "aus.career.weeklyHours": { "message": "每周工时" },
+  "aus.career.employees": { "message": "从业人数" },
+  "aus.career.growthRate": { "message": "增长率" },
+  "aus.career.demand": { "message": "需求" },
+  "aus.career.visaFriendly": { "message": "签证友好" },
+  "aus.career.industry": { "message": "行业" },
+  "aus.career.headquarters": { "message": "总部" },
+  "aus.career.auEmployees": { "message": "澳洲员工" },
+  "aus.career.gradSalary": { "message": "毕业生薪资" },
+  "aus.career.visaSponsor": { "message": "签证担保" },
+  "aus.career.glassdoor": { "message": "Glassdoor" }
 }
