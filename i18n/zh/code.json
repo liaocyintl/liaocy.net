@@ -422,5 +422,11 @@
   "aus.tab.cities": { "message": "城市指南" },
   "aus.tab.work": { "message": "打工指南" },
   "aus.tab.career": { "message": "就业指南" },
-  "aus.tab.lifestyle": { "message": "澳洲生活" }
+  "aus.tab.lifestyle": { "message": "澳洲生活" },
+
+  "aus.uni.all": { "message": "全部" },
+  "aus.uni.qsRank": { "message": "QS排名" },
+  "aus.uni.tuition": { "message": "学费" },
+  "aus.uni.perYear": { "message": "年" },
+  "aus.uni.filter.other": { "message": "其他" }
 }
