@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { translate } from '@docusaurus/Translate';
 import { useTableTennisData } from '@site/src/data/sports/table-tennis';
+import { ForehandDrive, ForehandLoop, ServeMotion, FootworkDiagram } from '@site/src/components/sports/Illustrations';
 import styles from './index.module.css';
 import clsx from 'clsx';
 
@@ -44,6 +45,36 @@ export default function TechniqueGuide(): JSX.Element {
       <h2 className={styles.sectionTitle}>
         {translate({ id: 'tt.techniques.title', message: 'Technique Guide' })}
       </h2>
+
+      <h3 className={styles.diagramsTitle}>
+        {translate({ id: 'tt.techniques.diagrams', message: 'Key Technique Diagrams' })}
+      </h3>
+      <div className={styles.diagramsGrid}>
+        <div className={styles.diagramItem}>
+          <ForehandDrive className={styles.diagramSvg} />
+          <span className={styles.diagramCaption}>
+            {translate({ id: 'tt.techniques.diagram.forehandDrive', message: 'Forehand Drive' })}
+          </span>
+        </div>
+        <div className={styles.diagramItem}>
+          <ForehandLoop className={styles.diagramSvg} />
+          <span className={styles.diagramCaption}>
+            {translate({ id: 'tt.techniques.diagram.forehandLoop', message: 'Forehand Loop (Topspin)' })}
+          </span>
+        </div>
+        <div className={styles.diagramItem}>
+          <ServeMotion className={styles.diagramSvg} />
+          <span className={styles.diagramCaption}>
+            {translate({ id: 'tt.techniques.diagram.serve', message: 'Serve Motion & Placement' })}
+          </span>
+        </div>
+        <div className={styles.diagramItem}>
+          <FootworkDiagram className={styles.diagramSvg} />
+          <span className={styles.diagramCaption}>
+            {translate({ id: 'tt.techniques.diagram.footwork', message: 'Footwork Patterns' })}
+          </span>
+        </div>
+      </div>
 
       <div className={styles.filterBar}>
         {filters.map((filter) => (

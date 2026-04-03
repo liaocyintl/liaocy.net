@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import { translate } from '@docusaurus/Translate';
 import { useTableTennisData } from '@site/src/data/sports/table-tennis';
+import { PaddleAnatomy, RubberTypes, TableDimensions } from '@site/src/components/sports/Illustrations';
 import styles from './index.module.css';
+
+const CATEGORY_ILLUSTRATIONS: Record<string, React.ComponentType<{ className?: string }>> = {
+  blades: PaddleAnatomy,
+  rubbers: RubberTypes,
+  tables: TableDimensions,
+};
 
 interface EquipmentItem {
   name: string;
@@ -61,6 +68,11 @@ export default function EquipmentGuide(): JSX.Element {
             </button>
             {expandedCategories.has(category.id) && (
               <div className={styles.itemsGrid}>
+                {CATEGORY_ILLUSTRATIONS[category.id] && (
+                  <div className={styles.illustrationWrapper}>
+                    {React.createElement(CATEGORY_ILLUSTRATIONS[category.id])}
+                  </div>
+                )}
                 {category.items.map((item) => (
                   <div className={styles.itemCard} key={item.name}>
                     <h4 className={styles.itemName}>{item.name}</h4>

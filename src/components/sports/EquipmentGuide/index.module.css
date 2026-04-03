@@ -85,6 +85,20 @@
   flex-shrink: 0;
 }
 
+.illustrationWrapper {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+.illustrationWrapper svg {
+  width: 100%;
+  height: auto;
+}
+
 .itemsGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

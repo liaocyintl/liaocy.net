@@ -7,6 +7,63 @@
   letter-spacing: -0.02em;
 }
 
+.diagramsTitle {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 1rem;
+  opacity: 0.8;
+}
+
+.diagramsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+}
+
+.diagramItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  padding: 16px 12px 12px;
+}
+
+[data-theme='dark'] .diagramItem {
+  background: #13171e;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+[data-theme='light'] .diagramItem {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.diagramSvg {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.diagramCaption {
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.7;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .diagramsGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
 .filterBar {
   display: flex;
   justify-content: center;

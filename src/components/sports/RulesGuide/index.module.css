@@ -7,6 +7,18 @@
   letter-spacing: -0.02em;
 }
 
+.tableDiagramWrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+}
+
+.tableDiagramSvg {
+  width: 100%;
+  height: auto;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

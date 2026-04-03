@@ -1,6 +1,7 @@
 import React from 'react';
 import { translate } from '@docusaurus/Translate';
 import { useTableTennisData } from '@site/src/data/sports/table-tennis';
+import { TableDimensions } from '@site/src/components/sports/Illustrations';
 import styles from './index.module.css';
 
 interface RulesSection {
@@ -17,6 +18,9 @@ export default function RulesGuide(): JSX.Element {
       <h2 className={styles.sectionTitle}>
         {translate({ id: 'tt.rules.title', message: 'Official Rules' })}
       </h2>
+      <div className={styles.tableDiagramWrapper}>
+        <TableDimensions className={styles.tableDiagramSvg} />
+      </div>
       <div className={styles.grid}>
         {rules.sections.map((section) => (
           <div className={styles.card} key={section.title}>
