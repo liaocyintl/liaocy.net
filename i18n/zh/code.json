@@ -532,5 +532,13 @@
   "about.heroSubtitle": { "message": "丰田汽车公司 高级系统工程师｜计算机科学博士" },
   "about.experienceCerts": { "message": "经历与资格" },
 
-  "homepage.fullName": { "message": "廖宸一 (Jackie)" }
+  "homepage.fullName": { "message": "廖宸一 (Jackie)" },
+
+  "travel.destinations": { "message": "目的地" },
+  "travel.viewGuide": { "message": "查看指南 →" },
+  "travel.comingSoon": { "message": "更多目的地即将上线..." },
+  "travel.aus.stat.unis": { "message": "所大学" },
+  "travel.aus.stat.cities": { "message": "座城市" },
+  "travel.aus.stat.jobs": { "message": "种工作" },
+  "travel.aus.stat.visas": { "message": "签证指南" }
 }

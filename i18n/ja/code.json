@@ -532,5 +532,13 @@
   "about.heroSubtitle": { "message": "トヨタ自動車株式会社 シニアシステムエンジニア｜コンピュータサイエンス博士" },
   "about.experienceCerts": { "message": "経歴・資格" },
 
-  "homepage.fullName": { "message": "廖宸一 (Jackie)" }
+  "homepage.fullName": { "message": "廖宸一 (Jackie)" },
+
+  "travel.destinations": { "message": "行き先" },
+  "travel.viewGuide": { "message": "ガイドを見る →" },
+  "travel.comingSoon": { "message": "他の行き先は準備中..." },
+  "travel.aus.stat.unis": { "message": "大学" },
+  "travel.aus.stat.cities": { "message": "都市" },
+  "travel.aus.stat.jobs": { "message": "職種" },
+  "travel.aus.stat.visas": { "message": "ビザガイド" }
 }
