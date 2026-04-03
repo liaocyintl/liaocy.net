@@ -8,6 +8,7 @@ const UniversityMap = lazy(() => import('@site/src/components/travel/UniversityM
 const CityGuide = lazy(() => import('@site/src/components/travel/CityGuide'));
 const WorkGuide = lazy(() => import('@site/src/components/travel/WorkGuide'));
 const CareerGuide = lazy(() => import('@site/src/components/travel/CareerGuide'));
+const LifestyleGuide = lazy(() => import('@site/src/components/travel/LifestyleGuide'));
 
 const TABS: Tab[] = [
   {
@@ -83,7 +84,9 @@ export default function AustraliaPage(): JSX.Element {
           </Suspense>
         )}
         {activeTab === 'lifestyle' && (
-          <div className={styles.placeholder}>Lifestyle module coming soon...</div>
+          <Suspense fallback={<div className={styles.placeholder}>Loading...</div>}>
+            <LifestyleGuide />
+          </Suspense>
         )}
       </div>
     </Layout>
