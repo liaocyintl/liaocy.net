@@ -37,6 +37,7 @@ const config = {
     // Using default behavior for broken markdown links which is usually 'warn'
   },
   trailingSlash: false,
+  clientModules: [require.resolve('./src/clientModules/preserveHash.js')],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
