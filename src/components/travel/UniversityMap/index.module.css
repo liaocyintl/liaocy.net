@@ -9,6 +9,8 @@
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
   width: 100vw;
+  position: relative;
+  z-index: 0;
 }
 
 .mapPane {
