@@ -285,5 +285,127 @@
   "theme.unlistedContent.message": {
     "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
+  },
+
+  "homepage.technicalSkills": {
+    "message": "技術スキル"
+  },
+  "homepage.experienceCerts": {
+    "message": "経歴・資格"
+  },
+  "homepage.technicalBlog": {
+    "message": "技術ブログ"
+  },
+
+  "timeline.toyota.date": {
+    "message": "2023年11月 - 現在"
+  },
+  "timeline.toyota.title": {
+    "message": "システムエンジニア（主任）"
+  },
+  "timeline.toyota.location": {
+    "message": "東京"
+  },
+  "timeline.cert.awsSecurity.date": {
+    "message": "2026年4月"
+  },
+  "timeline.cert.awsSAPro.date": {
+    "message": "2026年2月"
+  },
+  "timeline.cert.awsNetworking.date": {
+    "message": "2025年9月"
+  },
+  "timeline.cert.awsML.date": {
+    "message": "2025年2月"
+  },
+  "timeline.cert.awsAI.date": {
+    "message": "2025年2月"
+  },
+  "timeline.cert.awsDevOps.date": {
+    "message": "2024年10月"
+  },
+  "timeline.cert.gcpACE.date": {
+    "message": "2024年6月"
+  },
+  "timeline.cert.awsSysOps.date": {
+    "message": "2024年4月"
+  },
+  "timeline.cert.awsDeveloper.date": {
+    "message": "2024年2月"
+  },
+  "timeline.cert.awsSAAssoc.date": {
+    "message": "2023年12月"
+  },
+  "timeline.cyberagent.date": {
+    "message": "2021年10月 - 2023年10月"
+  },
+  "timeline.cyberagent.title": {
+    "message": "データエンジニア"
+  },
+  "timeline.cyberagent.location": {
+    "message": "東京"
+  },
+  "timeline.cert.awsCP.date": {
+    "message": "2023年9月"
+  },
+  "timeline.cert.apIT.date": {
+    "message": "2022年11月"
+  },
+  "timeline.cert.apIT.title": {
+    "message": "応用情報技術者試験"
+  },
+  "timeline.softbank.date": {
+    "message": "2019年4月 - 2021年9月"
+  },
+  "timeline.softbank.title": {
+    "message": "システムエンジニア"
+  },
+  "timeline.cert.toeic.date": {
+    "message": "2021年5月"
+  },
+  "timeline.cert.jdlaEngineer.date": {
+    "message": "2021年2月"
+  },
+  "timeline.cert.mcpcIoT.date": {
+    "message": "2020年12月"
+  },
+  "timeline.cert.javaGold.date": {
+    "message": "2020年9月"
+  },
+  "timeline.cert.javaSilver.date": {
+    "message": "2020年8月"
+  },
+  "timeline.cert.python3.date": {
+    "message": "2020年2月"
+  },
+  "timeline.cert.python3.subtitle": {
+    "message": "一般社団法人Pythonエンジニア育成推進協会"
+  },
+  "timeline.cert.jdlaGeneral.date": {
+    "message": "2020年3月"
+  },
+  "timeline.cert.ccnp.date": {
+    "message": "2020年2月 - 2023年8月（失効）"
+  },
+  "timeline.cert.feExam.date": {
+    "message": "2019年11月"
+  },
+  "timeline.cert.feExam.title": {
+    "message": "基本情報技術者試験"
+  },
+  "timeline.cert.ccna.date": {
+    "message": "2019年8月 - 2023年8月（失効）"
+  },
+  "timeline.researcher.date": {
+    "message": "2017年4月 - 2019年3月"
+  },
+  "timeline.researcher.title": {
+    "message": "研究員"
+  },
+  "timeline.phd.date": {
+    "message": "2014年9月 - 2019年3月"
+  },
+  "timeline.phd.title": {
+    "message": "博士（工学）"
   }
 }

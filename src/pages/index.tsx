@@ -9,6 +9,7 @@ import TechBackground from '@site/src/components/TechBackground';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import React, { useEffect, useState } from 'react';
+import { translate } from '@docusaurus/Translate';
 
 // Typing effect hook
 const useTypewriter = (text: string, speed = 50) => {
@@ -46,7 +47,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/blog">
-            Technical Blog
+            {translate({id: 'homepage.technicalBlog', message: 'Technical Blog'})}
           </Link>
           <Link
             className="button button--outline button--primary button--lg"
@@ -68,12 +69,12 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <section className={styles.section}>
-          <Heading as="h2" className={clsx(styles.sectionTitle)}>Technical Skills</Heading>
+          <Heading as="h2" className={clsx(styles.sectionTitle)}>{translate({id: 'homepage.technicalSkills', message: 'Technical Skills'})}</Heading>
           <SkillWordCloud />
         </section>
 
         <section className={styles.section}>
-          <Heading as="h2" className={styles.sectionTitle}>Experience & Certifications</Heading>
+          <Heading as="h2" className={styles.sectionTitle}>{translate({id: 'homepage.experienceCerts', message: 'Experience & Certifications'})}</Heading>
           <ResumeTimeLine />
         </section>
       </main>

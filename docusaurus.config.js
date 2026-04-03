@@ -51,7 +51,6 @@ const config = {
         direction: 'ltr',
         htmlLang: 'en',
         calendar: 'gregory',
-        path: 'en',
       },
       ja: {
         label: '日本語',
