@@ -58,7 +58,16 @@ function HomepageHeader() {
           {translate({ id: 'homepage.fullName', message: 'Chenyi (Jackie) Liao' })}
         </Heading>
         <p className={styles.heroSubtitle}>
-          {tagline} <span className={styles.cursor}>|</span>
+          {tagline.includes('Ph.D.') ? (
+            <>
+              {tagline.split(/,\s*Ph\.D\./)[0]}
+              <br />
+              Ph.D.{tagline.split(/Ph\.D\./)[1]}
+            </>
+          ) : (
+            tagline
+          )}
+          {' '}<span className={styles.cursor}>|</span>
         </p>
         <div className={styles.moduleRow}>
           {modules.map((mod) => (
