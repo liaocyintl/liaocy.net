@@ -413,5 +413,14 @@
   "travel.heroTitle": { "message": "世界を巡る" },
   "travel.heroSubtitle": { "message": "海外留学・生活のガイドとツール" },
   "travel.australia.title": { "message": "オーストラリア留学" },
-  "travel.australia.desc": { "message": "オーストラリア留学の総合ガイド — 大学、都市、アルバイト、就職、生活情報" }
+  "travel.australia.desc": { "message": "オーストラリア留学の総合ガイド — 大学、都市、アルバイト、就職、生活情報" },
+
+  "aus.pageTitle": { "message": "オーストラリア留学" },
+  "aus.heroTitle": { "message": "オーストラリア留学ガイド" },
+  "aus.heroSubtitle": { "message": "オーストラリアでの留学・生活に必要な情報を網羅" },
+  "aus.tab.universities": { "message": "大学マップ" },
+  "aus.tab.cities": { "message": "都市ガイド" },
+  "aus.tab.work": { "message": "アルバイト" },
+  "aus.tab.career": { "message": "就職情報" },
+  "aus.tab.lifestyle": { "message": "生活ガイド" }
 }

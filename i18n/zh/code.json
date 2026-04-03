@@ -413,5 +413,14 @@
   "travel.heroTitle": { "message": "游天下" },
   "travel.heroSubtitle": { "message": "海外留学与生活指南" },
   "travel.australia.title": { "message": "澳大利亚留学" },
-  "travel.australia.desc": { "message": "澳大利亚留学全攻略 — 大学、城市、打工、就业、生活一站式指南" }
+  "travel.australia.desc": { "message": "澳大利亚留学全攻略 — 大学、城市、打工、就业、生活一站式指南" },
+
+  "aus.pageTitle": { "message": "澳大利亚留学" },
+  "aus.heroTitle": { "message": "澳大利亚留学指南" },
+  "aus.heroSubtitle": { "message": "关于澳大利亚留学和生活，你需要知道的一切" },
+  "aus.tab.universities": { "message": "大学地图" },
+  "aus.tab.cities": { "message": "城市指南" },
+  "aus.tab.work": { "message": "打工指南" },
+  "aus.tab.career": { "message": "就业指南" },
+  "aus.tab.lifestyle": { "message": "澳洲生活" }
 }
