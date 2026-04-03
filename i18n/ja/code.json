@@ -438,5 +438,27 @@
   "aus.city.coffee": { "message": "コーヒー平均" },
   "aus.city.climate": { "message": "気候" },
   "aus.city.universities": { "message": "大学" },
-  "aus.city.industries": { "message": "主要産業" }
+  "aus.city.industries": { "message": "主要産業" },
+
+  "aus.work.calculator": { "message": "収入シミュレーター" },
+  "aus.work.hourlyWage": { "message": "時給 (AUD)" },
+  "aus.work.hoursPerWeek": { "message": "週間勤務時間" },
+  "aus.work.weekly": { "message": "週収入" },
+  "aus.work.monthly": { "message": "月収入" },
+  "aus.work.yearly": { "message": "年収入" },
+  "aus.work.jobListings": { "message": "一般的なアルバイト" },
+  "aus.work.all": { "message": "すべて" },
+  "aus.work.hourlyRate": { "message": "時給範囲" },
+  "aus.work.weekendRate": { "message": "週末レート" },
+  "aus.work.eveningRate": { "message": "夜間レート" },
+  "aus.work.englishReq": { "message": "英語力" },
+  "aus.work.flexibility": { "message": "柔軟性" },
+  "aus.work.visaComparison": { "message": "ビザ比較" },
+  "aus.work.subclass": { "message": "サブクラス" },
+  "aus.work.workHours": { "message": "勤務時間" },
+  "aus.work.duration": { "message": "有効期間" },
+  "aus.work.eligibility": { "message": "申請条件" },
+  "aus.work.prosAndCons": { "message": "メリット・デメリット" },
+  "aus.work.pros": { "message": "メリット" },
+  "aus.work.cons": { "message": "デメリット" }
 }

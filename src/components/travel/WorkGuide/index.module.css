@@ -1,0 +1,362 @@
+/* ── Section titles ── */
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 32px 0 16px;
+  color: var(--ifm-color-content);
+}
+
+/* ── Income Calculator ── */
+.calculator {
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+[data-theme='dark'] .calculator {
+  background: #161b22;
+  border: 1px solid var(--ifm-color-primary);
+  box-shadow: 0 0 12px rgba(96, 165, 250, 0.15);
+}
+
+[data-theme='light'] .calculator {
+  background: #fff;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.calcInputs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.inputGroup label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-600);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.inputGroup input {
+  width: 140px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+[data-theme='dark'] .inputGroup input {
+  background: #0d1117;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-content);
+}
+
+[data-theme='dark'] .inputGroup input:focus {
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='light'] .inputGroup input {
+  background: #f6f8fa;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-content);
+}
+
+[data-theme='light'] .inputGroup input:focus {
+  border-color: var(--ifm-color-primary);
+}
+
+.calcResults {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.resultBox {
+  flex: 1;
+  min-width: 140px;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+}
+
+[data-theme='dark'] .resultBox {
+  background: rgba(96, 165, 250, 0.1);
+  border: 1px solid rgba(96, 165, 250, 0.25);
+}
+
+[data-theme='light'] .resultBox {
+  background: var(--ifm-color-primary-contrast-background);
+  border: 1px solid var(--ifm-color-primary-lightest);
+}
+
+.resultLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-600);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+}
+
+.resultValue {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+/* ── Filter Tabs ── */
+.filterTabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filterTab {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-theme='dark'] .filterTab {
+  background: #21262d;
+  color: var(--ifm-color-emphasis-600);
+}
+
+[data-theme='dark'] .filterTab:hover {
+  background: #30363d;
+}
+
+[data-theme='light'] .filterTab {
+  background: #f0f0f0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+[data-theme='light'] .filterTab:hover {
+  background: #e0e0e0;
+}
+
+.filterTabActive {
+  background: var(--ifm-color-primary) !important;
+  color: #fff !important;
+}
+
+/* ── Job Cards Grid ── */
+.jobGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 996px) {
+  .jobGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .jobGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.jobCard {
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.jobCard:hover {
+  transform: translateY(-2px);
+}
+
+[data-theme='dark'] .jobCard {
+  background: #161b22;
+  border: 1px solid var(--ifm-color-primary);
+  box-shadow: 0 0 12px rgba(96, 165, 250, 0.15);
+}
+
+[data-theme='dark'] .jobCard:hover {
+  box-shadow: 0 0 20px rgba(96, 165, 250, 0.25);
+}
+
+[data-theme='light'] .jobCard {
+  background: #fff;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='light'] .jobCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.jobName {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ifm-color-content);
+  margin: 0;
+}
+
+.jobMeta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.metaItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.metaLabel {
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-600);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.metaValue {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-content);
+}
+
+.categoryBadge {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+[data-theme='dark'] .categoryBadge {
+  background: rgba(96, 165, 250, 0.15);
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='light'] .categoryBadge {
+  background: var(--ifm-color-primary-contrast-background);
+  color: var(--ifm-color-primary-dark);
+}
+
+/* ── Visa Comparison Table ── */
+.tableWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 32px;
+  border-radius: 12px;
+}
+
+[data-theme='dark'] .tableWrapper {
+  border: 1px solid var(--ifm-color-primary);
+  box-shadow: 0 0 12px rgba(96, 165, 250, 0.15);
+}
+
+[data-theme='light'] .tableWrapper {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.visaTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+  font-size: 0.9rem;
+}
+
+.visaTable th,
+.visaTable td {
+  padding: 12px 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.visaTable th {
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+[data-theme='dark'] .visaTable th {
+  background: #0d1117;
+  color: var(--ifm-color-primary-lightest);
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+[data-theme='light'] .visaTable th {
+  background: var(--ifm-color-primary-contrast-background);
+  color: var(--ifm-color-primary-dark);
+  border-bottom: 2px solid var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .visaTable td {
+  border-bottom: 1px solid #21262d;
+}
+
+[data-theme='light'] .visaTable td {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.visaTable .rowLabel {
+  font-weight: 600;
+  white-space: nowrap;
+  width: 120px;
+}
+
+[data-theme='dark'] .visaTable .rowLabel {
+  background: #0d1117;
+  color: var(--ifm-color-emphasis-700);
+}
+
+[data-theme='light'] .visaTable .rowLabel {
+  background: #f9fafb;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.visaTable ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.visaTable li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.prosLabel {
+  color: #22c55e;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.consLabel {
+  color: #ef4444;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}

@@ -438,5 +438,27 @@
   "aus.city.coffee": { "message": "咖啡均价" },
   "aus.city.climate": { "message": "气候" },
   "aus.city.universities": { "message": "所大学" },
-  "aus.city.industries": { "message": "主要产业" }
+  "aus.city.industries": { "message": "主要产业" },
+
+  "aus.work.calculator": { "message": "收入计算器" },
+  "aus.work.hourlyWage": { "message": "时薪 (AUD)" },
+  "aus.work.hoursPerWeek": { "message": "每周工时" },
+  "aus.work.weekly": { "message": "周收入" },
+  "aus.work.monthly": { "message": "月收入" },
+  "aus.work.yearly": { "message": "年收入" },
+  "aus.work.jobListings": { "message": "常见兼职工作" },
+  "aus.work.all": { "message": "全部" },
+  "aus.work.hourlyRate": { "message": "时薪范围" },
+  "aus.work.weekendRate": { "message": "周末倍率" },
+  "aus.work.eveningRate": { "message": "晚间倍率" },
+  "aus.work.englishReq": { "message": "英语要求" },
+  "aus.work.flexibility": { "message": "灵活度" },
+  "aus.work.visaComparison": { "message": "签证对比" },
+  "aus.work.subclass": { "message": "签证类别" },
+  "aus.work.workHours": { "message": "工作时长" },
+  "aus.work.duration": { "message": "签证时长" },
+  "aus.work.eligibility": { "message": "申请条件" },
+  "aus.work.prosAndCons": { "message": "优缺点" },
+  "aus.work.pros": { "message": "优点" },
+  "aus.work.cons": { "message": "缺点" }
 }
