@@ -1,4 +1,5 @@
-import React, { useState, lazy, Suspense } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import Layout from '@theme/Layout';
 import { translate } from '@docusaurus/Translate';
 import TabBar, { Tab } from '@site/src/components/travel/TabBar';
@@ -38,8 +39,30 @@ const TABS: Tab[] = [
   },
 ];
 
+const VALID_TABS = new Set(TABS.map((t) => t.id));
+
+function getTabFromHash(): string {
+  if (typeof window === 'undefined') return 'universities';
+  const hash = window.location.hash.replace('#', '');
+  return VALID_TABS.has(hash) ? hash : 'universities';
+}
+
 export default function AustraliaPage(): JSX.Element {
   const [activeTab, setActiveTab] = useState('universities');
+
+  // Sync tab from URL hash on mount and hash change
+  useEffect(() => {
+    setActiveTab(getTabFromHash());
+    const onHashChange = () => setActiveTab(getTabFromHash());
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
+
+  // Update URL hash when tab changes
+  const handleTabChange = (tabId: string) => {
+    setActiveTab(tabId);
+    window.history.replaceState(null, '', `#${tabId}`);
+  };
 
   return (
     <Layout
@@ -60,7 +83,7 @@ export default function AustraliaPage(): JSX.Element {
         </div>
       </header>
 
-      <TabBar tabs={TABS} activeTab={activeTab} onTabChange={setActiveTab} />
+      <TabBar tabs={TABS} activeTab={activeTab} onTabChange={handleTabChange} />
 
       <div className={styles.tabContent}>
         {activeTab === 'universities' && (

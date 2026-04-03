@@ -22,5 +22,13 @@
   "item.label.Explore": {
     "message": "游天下",
     "description": "Navbar item with label Explore"
+  },
+  "item.label.Overview": {
+    "message": "总览",
+    "description": "Navbar item with label Overview"
+  },
+  "item.label.Study in Australia": {
+    "message": "澳大利亚留学指南",
+    "description": "Navbar item with label Study in Australia"
   }
 }

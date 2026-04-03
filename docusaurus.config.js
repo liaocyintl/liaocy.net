@@ -115,20 +115,19 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left',
-          },
-          {
-            to: '/travel',
+            type: 'dropdown',
             label: 'Explore',
             position: 'left',
+            items: [
+              {
+                to: '/travel',
+                label: 'Overview',
+              },
+              {
+                to: '/travel/australia',
+                label: 'Study in Australia',
+              },
+            ],
           },
           {
             type: 'localeDropdown',
