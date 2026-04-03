@@ -530,5 +530,7 @@
   "about.pageTitle": { "message": "关于我" },
   "about.heroTitle": { "message": "关于我" },
   "about.heroSubtitle": { "message": "丰田汽车公司 高级系统工程师｜计算机科学博士" },
-  "about.experienceCerts": { "message": "经历与资格" }
+  "about.experienceCerts": { "message": "经历与资格" },
+
+  "homepage.fullName": { "message": "廖宸一 (Jackie)" }
 }

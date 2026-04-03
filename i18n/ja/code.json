@@ -530,5 +530,7 @@
   "about.pageTitle": { "message": "自己紹介" },
   "about.heroTitle": { "message": "自己紹介" },
   "about.heroSubtitle": { "message": "トヨタ自動車株式会社 シニアシステムエンジニア｜コンピュータサイエンス博士" },
-  "about.experienceCerts": { "message": "経歴・資格" }
+  "about.experienceCerts": { "message": "経歴・資格" },
+
+  "homepage.fullName": { "message": "廖宸一 (Jackie)" }
 }

@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chenyi Liao',
+  title: 'Jackie Liao',
   tagline: 'Senior System Engineer at TOYOTA Motor Corporation, Ph.D. in Computer Science',
   favicon: 'img/favicon.ico',
 
@@ -108,7 +108,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Chenyi Liao',
+        title: 'Jackie Liao',
         items: [
           {
             to: '/about',

@@ -1,11 +1,7 @@
 {
   "title": {
-    "message": "廖宸一",
+    "message": "Jackie Liao",
     "description": "The title in the navbar"
-  },
-  "logo.alt": {
-    "message": "廖宸一",
-    "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
     "message": "Docs",

@@ -49,7 +49,7 @@ function HomepageHeader() {
       <TechBackground />
       <div className="container" style={{ zIndex: 1, position: 'relative' }}>
         <Heading as="h1" className={styles.heroTitle}>
-          {siteConfig.title}
+          {translate({ id: 'homepage.fullName', message: 'Chenyi (Jackie) Liao' })}
         </Heading>
         <p className={styles.heroSubtitle}>
           {tagline} <span className={styles.cursor}>|</span>
