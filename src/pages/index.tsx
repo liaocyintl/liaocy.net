@@ -38,6 +38,12 @@ const modules = [
     desc: translate({ id: 'homepage.module.travel.desc', message: 'Guides for studying and living abroad' }),
     link: '/travel',
   },
+  {
+    emoji: '🏓',
+    title: translate({ id: 'homepage.module.sports', message: 'Sports' }),
+    desc: translate({ id: 'homepage.module.sports.desc', message: 'Guides and techniques for sports' }),
+    link: '/sports',
+  },
 ];
 
 function HomepageHeader() {

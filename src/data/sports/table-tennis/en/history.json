@@ -1,0 +1,50 @@
+[
+  {
+    "year": "1880s",
+    "title": "Origins in Victorian England",
+    "description": "Table tennis originated as an after-dinner parlor game among upper-class Victorians in England, using improvised equipment like cigar box lids and champagne corks.",
+    "icon": "🏛️"
+  },
+  {
+    "year": "1901",
+    "title": "First Official Tournament",
+    "description": "The first official table tennis tournament was held in England, attracting over 300 players and marking the sport's transition from parlor game to competitive activity.",
+    "icon": "🏆"
+  },
+  {
+    "year": "1926",
+    "title": "ITTF Founded",
+    "description": "The International Table Tennis Federation (ITTF) was established in Berlin, unifying rules and organizing the first World Championships.",
+    "icon": "🌍"
+  },
+  {
+    "year": "1950s",
+    "title": "Asian Dominance Begins",
+    "description": "Japan revolutionized the sport with the penhold grip and sponge rubber, ushering in an era of Asian dominance that continues today.",
+    "icon": "🇯🇵"
+  },
+  {
+    "year": "1971",
+    "title": "Ping Pong Diplomacy",
+    "description": "The historic exchange between American and Chinese table tennis players helped thaw Cold War relations and paved the way for Nixon's visit to China.",
+    "icon": "🕊️"
+  },
+  {
+    "year": "1988",
+    "title": "Olympic Debut",
+    "description": "Table tennis became an official Olympic sport at the Seoul Games, elevating its global profile and competitive prestige.",
+    "icon": "🥇"
+  },
+  {
+    "year": "2000s",
+    "title": "Modern Era",
+    "description": "Introduction of the 40mm ball, 11-point scoring system, and advanced rubbers transformed the game into a faster, more spectator-friendly sport.",
+    "icon": "⚡"
+  },
+  {
+    "year": "2020s",
+    "title": "Technology & Global Growth",
+    "description": "Video replay systems, robot training partners, and growing popularity across all continents mark the latest chapter in table tennis evolution.",
+    "icon": "🤖"
+  }
+]

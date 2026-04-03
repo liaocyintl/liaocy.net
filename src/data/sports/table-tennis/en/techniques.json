@@ -1,0 +1,289 @@
+{
+  "categories": [
+    {
+      "id": "basic",
+      "name": "Basic Strokes",
+      "techniques": [
+        {
+          "name": "Forehand Drive",
+          "icon": "💪",
+          "difficulty": "beginner",
+          "description": "The fundamental attacking stroke. A forward brushing motion that produces topspin and consistent speed.",
+          "key_points": [
+            "Start with racket below table level",
+            "Rotate hips and waist for power",
+            "Brush the ball at its peak",
+            "Follow through naturally forward"
+          ],
+          "common_mistakes": [
+            "Using only arm strength without body rotation",
+            "Hitting the ball too late or too early",
+            "Racket angle too open or too closed"
+          ]
+        },
+        {
+          "name": "Backhand Drive",
+          "icon": "🤚",
+          "difficulty": "beginner",
+          "description": "A compact topspin stroke from the backhand side, essential for rally play.",
+          "key_points": [
+            "Keep elbow close to body",
+            "Use wrist snap for acceleration",
+            "Contact ball in front of body",
+            "Short, compact swing path"
+          ],
+          "common_mistakes": [
+            "Elbow drifting away from body",
+            "Swinging too wide",
+            "Not using wrist acceleration"
+          ]
+        },
+        {
+          "name": "Push",
+          "icon": "👉",
+          "difficulty": "beginner",
+          "description": "A controlled backspin stroke used to return short balls and control rallies.",
+          "key_points": [
+            "Open racket angle slightly",
+            "Push forward and downward",
+            "Keep the ball low over the net",
+            "Vary length and spin"
+          ],
+          "common_mistakes": [
+            "Pushing too high over the net",
+            "Not enough backspin",
+            "Predictable placement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "name": "Intermediate Techniques",
+      "techniques": [
+        {
+          "name": "Forehand Loop",
+          "icon": "🔄",
+          "difficulty": "intermediate",
+          "description": "A powerful topspin attack that lifts and accelerates the ball with heavy rotation.",
+          "key_points": [
+            "Drop racket below the ball",
+            "Brush upward at high speed",
+            "Full body rotation from legs to arm",
+            "Thin contact for maximum spin"
+          ],
+          "common_mistakes": [
+            "Hitting through the ball instead of brushing",
+            "Insufficient leg drive",
+            "Starting the stroke too high"
+          ]
+        },
+        {
+          "name": "Backhand Flick",
+          "icon": "⚡",
+          "difficulty": "intermediate",
+          "description": "An aggressive wrist-driven attack against short balls on the backhand side.",
+          "key_points": [
+            "Step in close to the table",
+            "Use explosive wrist snap",
+            "Contact ball at the top of the bounce",
+            "Aim for speed and placement"
+          ],
+          "common_mistakes": [
+            "Standing too far from the table",
+            "Using arm instead of wrist",
+            "Poor timing on the bounce"
+          ]
+        },
+        {
+          "name": "Counter Loop",
+          "icon": "🔃",
+          "difficulty": "advanced",
+          "description": "Redirecting an opponent's topspin attack with your own topspin, played close to the table.",
+          "key_points": [
+            "Close racket angle against topspin",
+            "Quick, compact swing",
+            "Use opponent's energy",
+            "Stay balanced and ready"
+          ],
+          "common_mistakes": [
+            "Racket angle too open against topspin",
+            "Swinging too big",
+            "Not adjusting to spin variation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "serves",
+      "name": "Serves",
+      "techniques": [
+        {
+          "name": "Backspin Serve",
+          "icon": "🌀",
+          "difficulty": "beginner",
+          "description": "A fundamental serve with backspin that keeps the ball low and forces a push return.",
+          "key_points": [
+            "Toss ball at least 16cm high",
+            "Brush under the ball with an open racket",
+            "Contact ball near its bottom",
+            "Keep the serve low over the net"
+          ],
+          "common_mistakes": [
+            "Illegal serve (hidden contact)",
+            "Ball bouncing too high",
+            "Insufficient spin"
+          ]
+        },
+        {
+          "name": "Pendulum Serve",
+          "icon": "🎯",
+          "difficulty": "intermediate",
+          "description": "A versatile serve where the racket swings like a pendulum, allowing various spin combinations.",
+          "key_points": [
+            "Swing racket from right to left (for right-handers)",
+            "Vary contact point for different spins",
+            "Disguise the spin direction",
+            "Control placement precisely"
+          ],
+          "common_mistakes": [
+            "Telegraphing the spin type",
+            "Inconsistent toss height",
+            "Not varying placement enough"
+          ]
+        },
+        {
+          "name": "Reverse Pendulum Serve",
+          "icon": "🔁",
+          "difficulty": "advanced",
+          "description": "The opposite motion of the pendulum serve, swinging from left to right for different spin angles.",
+          "key_points": [
+            "Swing racket from left to right",
+            "Use wrist for spin generation",
+            "Great for creating sidespin variation",
+            "Pair with pendulum for deception"
+          ],
+          "common_mistakes": [
+            "Uncomfortable wrist position causing errors",
+            "Less power than pendulum serve",
+            "Predictable when used alone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defense",
+      "name": "Defense",
+      "techniques": [
+        {
+          "name": "Block",
+          "icon": "🛡️",
+          "difficulty": "beginner",
+          "description": "A passive stroke that uses the opponent's energy to redirect the ball with control.",
+          "key_points": [
+            "Minimal backswing",
+            "Close racket angle slightly",
+            "Absorb the ball's energy",
+            "Focus on placement over power"
+          ],
+          "common_mistakes": [
+            "Too much backswing",
+            "Racket angle not adjusted for spin",
+            "Passive placement"
+          ]
+        },
+        {
+          "name": "Chop",
+          "icon": "🪓",
+          "difficulty": "intermediate",
+          "description": "A defensive backspin stroke played away from the table to return powerful attacks.",
+          "key_points": [
+            "Step back from the table",
+            "Swing downward with open racket",
+            "Vary the spin amount",
+            "Keep the ball low and deep"
+          ],
+          "common_mistakes": [
+            "Ball going too high (easy attack)",
+            "Not enough backspin variation",
+            "Standing too close to the table"
+          ]
+        },
+        {
+          "name": "Lob",
+          "icon": "🎈",
+          "difficulty": "advanced",
+          "description": "A high, deep defensive shot with heavy topspin used as a last resort against smashes.",
+          "key_points": [
+            "Hit ball high with heavy topspin",
+            "Aim deep to the opponent's end line",
+            "Use as emergency defense",
+            "Add sidespin for difficulty"
+          ],
+          "common_mistakes": [
+            "Not enough height or depth",
+            "Insufficient topspin to bring ball down",
+            "Using it too often (predictable)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footwork",
+      "name": "Footwork",
+      "techniques": [
+        {
+          "name": "Side-to-Side Steps",
+          "icon": "👣",
+          "difficulty": "beginner",
+          "description": "Basic lateral movement to cover the table width efficiently.",
+          "key_points": [
+            "Stay on the balls of your feet",
+            "Small, quick shuffling steps",
+            "Maintain a low center of gravity",
+            "Return to ready position after each shot"
+          ],
+          "common_mistakes": [
+            "Crossing feet",
+            "Standing flat-footed",
+            "Not returning to ready position"
+          ]
+        },
+        {
+          "name": "Pivot Footwork",
+          "icon": "🔄",
+          "difficulty": "intermediate",
+          "description": "Stepping around the backhand corner to use a forehand from the backhand side.",
+          "key_points": [
+            "Quick step with the right foot (right-handers)",
+            "Maintain balance during rotation",
+            "Recover quickly to cover forehand side",
+            "Use when forehand is stronger"
+          ],
+          "common_mistakes": [
+            "Moving too slowly to recover",
+            "Losing balance during pivot",
+            "Leaving forehand side exposed"
+          ]
+        },
+        {
+          "name": "Cross-Step",
+          "icon": "🏃",
+          "difficulty": "advanced",
+          "description": "A large lateral movement using a crossover step to reach wide balls.",
+          "key_points": [
+            "Cross back foot behind or in front",
+            "Cover large distances quickly",
+            "Maintain hitting stance after movement",
+            "Essential for mid-distance play"
+          ],
+          "common_mistakes": [
+            "Losing balance during cross-step",
+            "Not enough hip rotation",
+            "Slow recovery back to position"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "categories": [
+    {
+      "id": "blades",
+      "icon": "🏓",
+      "name": "Blades",
+      "description": "The wooden core of a table tennis racket, determining speed and control characteristics.",
+      "items": [
+        {
+          "name": "All-round Blade",
+          "description": "Balanced blade suitable for beginners and intermediate players.",
+          "characteristics": ["Control", "Balanced", "5-ply Wood"],
+          "brands": ["Butterfly Timo Boll ALC", "Stiga Allround Classic"],
+          "price_range": "$30 - $80"
+        },
+        {
+          "name": "Offensive Blade",
+          "description": "Fast blade designed for aggressive attacking play.",
+          "characteristics": ["Speed", "Power", "Carbon Fiber"],
+          "brands": ["Butterfly Zhang Jike ZLC", "DHS Hurricane Long"],
+          "price_range": "$80 - $200"
+        },
+        {
+          "name": "Defensive Blade",
+          "description": "Slower blade optimized for control and chopping techniques.",
+          "characteristics": ["Control", "Large Head", "Flexible"],
+          "brands": ["Butterfly Defensive Pro", "XIOM Vega DEF"],
+          "price_range": "$40 - $100"
+        }
+      ]
+    },
+    {
+      "id": "rubbers",
+      "icon": "🔴",
+      "name": "Rubbers",
+      "description": "The rubber covering on each side of the blade that directly contacts the ball.",
+      "items": [
+        {
+          "name": "Inverted (Smooth) Rubber",
+          "description": "The most common rubber type with a smooth surface for maximum spin and speed.",
+          "characteristics": ["High Spin", "Speed", "Versatile"],
+          "brands": ["Butterfly Tenergy 05", "DHS Hurricane 3"],
+          "price_range": "$25 - $70"
+        },
+        {
+          "name": "Short Pips Rubber",
+          "description": "Rubber with short outward-facing pimples for flat hits and blocking.",
+          "characteristics": ["Speed", "Low Spin", "Direct"],
+          "brands": ["TSP Spectol", "Butterfly Sriver"],
+          "price_range": "$15 - $40"
+        },
+        {
+          "name": "Long Pips Rubber",
+          "description": "Rubber with long pimples that reverses incoming spin, used for defensive play.",
+          "characteristics": ["Spin Reversal", "Deceptive", "Defensive"],
+          "brands": ["Butterfly Feint Long", "DONIC Piranja"],
+          "price_range": "$15 - $35"
+        }
+      ]
+    },
+    {
+      "id": "balls",
+      "icon": "⚪",
+      "name": "Balls",
+      "description": "Regulation table tennis balls made of poly material, 40mm in diameter.",
+      "items": [
+        {
+          "name": "3-Star Competition Ball",
+          "description": "Highest quality balls approved for official competitions and tournaments.",
+          "characteristics": ["Competition", "Consistent Bounce", "Durable"],
+          "brands": ["Butterfly A40+", "Nittaku Premium"],
+          "price_range": "$2 - $4 each"
+        },
+        {
+          "name": "Training Ball",
+          "description": "Good quality balls for practice sessions, slightly less consistent than competition grade.",
+          "characteristics": ["Practice", "Value", "Bulk Pack"],
+          "brands": ["Butterfly Training", "JOOLA Training"],
+          "price_range": "$0.50 - $1 each"
+        }
+      ]
+    },
+    {
+      "id": "tables",
+      "icon": "🟩",
+      "name": "Tables",
+      "description": "Regulation table tennis tables with standard dimensions of 274cm x 152.5cm x 76cm.",
+      "items": [
+        {
+          "name": "Competition Table",
+          "description": "ITTF-approved tables with 25mm+ thick tops for consistent bounce.",
+          "characteristics": ["25mm Top", "ITTF Approved", "Professional"],
+          "brands": ["Butterfly Centrefold 25", "STIGA Expert VM"],
+          "price_range": "$1,500 - $4,000"
+        },
+        {
+          "name": "Recreation Table",
+          "description": "Affordable tables suitable for home and recreational play.",
+          "characteristics": ["Foldable", "Portable", "15-19mm Top"],
+          "brands": ["JOOLA Inside", "STIGA Advantage"],
+          "price_range": "$300 - $800"
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "icon": "🎒",
+      "name": "Accessories",
+      "description": "Essential accessories for table tennis players.",
+      "items": [
+        {
+          "name": "Rubber Cleaner",
+          "description": "Spray or foam cleaners to maintain rubber tackiness and extend lifespan.",
+          "characteristics": ["Maintenance", "Essential", "Easy to Use"],
+          "brands": ["Butterfly Rubber Cleaner", "DHS Rubber Care"],
+          "price_range": "$5 - $15"
+        },
+        {
+          "name": "Edge Tape",
+          "description": "Protective tape applied around the racket edge to prevent rubber peeling.",
+          "characteristics": ["Protection", "Lightweight", "Various Widths"],
+          "brands": ["Butterfly Edge Tape", "Nittaku Side Tape"],
+          "price_range": "$3 - $8"
+        }
+      ]
+    },
+    {
+      "id": "shoes",
+      "icon": "👟",
+      "name": "Shoes & Apparel",
+      "description": "Specialized footwear and clothing designed for table tennis movement.",
+      "items": [
+        {
+          "name": "Table Tennis Shoes",
+          "description": "Lightweight shoes with non-marking soles designed for quick lateral movements.",
+          "characteristics": ["Non-marking", "Lightweight", "Grip"],
+          "brands": ["Butterfly Lezoline", "Mizuno Wave Drive"],
+          "price_range": "$60 - $150"
+        },
+        {
+          "name": "Playing Apparel",
+          "description": "Official tournament-approved shirts and shorts made of breathable materials.",
+          "characteristics": ["Breathable", "Quick-dry", "Tournament Legal"],
+          "brands": ["Butterfly", "JOOLA", "Xiom"],
+          "price_range": "$20 - $60"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+.heroBanner {
+  padding: 3.5rem 2rem 2rem;
+  text-align: center;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 30%, rgba(229, 57, 53, 0.1) 0%, transparent 60%),
+    radial-gradient(circle at 75% 60%, rgba(255, 112, 67, 0.05) 0%, transparent 40%);
+}
+
+[data-theme='light'] .heroBanner {
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 30%, rgba(229, 57, 53, 0.06) 0%, transparent 60%),
+    radial-gradient(circle at 75% 60%, rgba(255, 112, 67, 0.03) 0%, transparent 40%);
+}
+
+.heroFlag {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.heroTitle {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.03em;
+  animation: fadeInUp 0.6s ease-out 0.08s both;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  opacity: 0.75;
+  max-width: 550px;
+  margin: 0 auto;
+  line-height: 1.6;
+  animation: fadeInUp 0.6s ease-out 0.16s both;
+}
+
+.tabContent {
+  max-width: 100%;
+  margin: 1rem 0;
+  padding: 0;
+  min-height: 400px;
+}
+
+.placeholder {
+  text-align: center;
+  padding: 4rem 2rem;
+  opacity: 0.4;
+  font-size: 1.1rem;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 2.5rem 1rem 1.5rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroFlag {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 0.95rem;
+  }
+
+  .tabContent {
+    padding: 0;
+    margin: 1rem auto;
+  }
+}

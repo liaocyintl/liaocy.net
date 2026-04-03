@@ -30,5 +30,13 @@
   "item.label.About": {
     "message": "关于我",
     "description": "Navbar item with label About"
+  },
+  "item.label.Sports": {
+    "message": "爱运动",
+    "description": "Navbar item with label Sports"
+  },
+  "item.label.Table Tennis": {
+    "message": "乒乓球",
+    "description": "Navbar item with label Table Tennis"
   }
 }

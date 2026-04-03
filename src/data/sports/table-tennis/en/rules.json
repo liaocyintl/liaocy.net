@@ -1,0 +1,64 @@
+{
+  "sections": [
+    {
+      "title": "Scoring",
+      "icon": "📊",
+      "rules": [
+        "A game is played to 11 points. A player must win by at least 2 points.",
+        "A match is typically best of 5 or best of 7 games.",
+        "Each player serves 2 points in a row, then the serve switches. At deuce (10-10), the serve alternates every point.",
+        "A point is scored when the opponent fails to make a legal return, or commits a fault."
+      ]
+    },
+    {
+      "title": "Service Rules",
+      "icon": "🎯",
+      "rules": [
+        "The ball must rest on an open palm before being tossed at least 16cm (about 6 inches) vertically.",
+        "The server must strike the ball so it bounces on their side first, then the opponent's side.",
+        "The ball must be visible to the opponent and the umpire at all times during the serve.",
+        "In doubles, the serve must go diagonally from the server's right half to the receiver's right half."
+      ]
+    },
+    {
+      "title": "Rally Rules",
+      "icon": "🏓",
+      "rules": [
+        "After the serve, players must alternate hitting the ball, letting it bounce once on their side.",
+        "The ball must pass over or around the net assembly and land on the opponent's side.",
+        "If the ball touches the net during a rally but lands on the correct side, play continues (net/edge balls are valid).",
+        "A let is called if the ball touches the net on a serve but lands in the correct area."
+      ]
+    },
+    {
+      "title": "Equipment Regulations",
+      "icon": "📏",
+      "rules": [
+        "The racket can be any size, shape, or weight, but the blade must be flat and rigid, with at least 85% natural wood.",
+        "One side of the racket must be red and the other black.",
+        "The ball must be 40mm in diameter, weigh 2.7g, and be made of celluloid or similar plastic material.",
+        "The table must be 274cm long, 152.5cm wide, and 76cm high, with a 15.25cm high net."
+      ]
+    },
+    {
+      "title": "Doubles Rules",
+      "icon": "👥",
+      "rules": [
+        "Partners must alternate hitting the ball during a rally.",
+        "The serve must go from the server's right half-court to the receiver's right half-court.",
+        "After each game, the receiving pair switches who receives first.",
+        "At the change of serve in the final game, the pair due to receive next must also switch receiver."
+      ]
+    },
+    {
+      "title": "Common Faults",
+      "icon": "⚠️",
+      "rules": [
+        "Touching the table surface with your free hand during a rally results in a point for the opponent.",
+        "Moving the table during play is a fault.",
+        "If a player strikes the ball twice in succession, the opponent scores a point.",
+        "Obstructing the ball (volleying before it bounces on your side) loses the point."
+      ]
+    }
+  ]
+}

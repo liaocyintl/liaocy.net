@@ -131,6 +131,21 @@ const config = {
             ],
           },
           {
+            type: 'dropdown',
+            label: 'Sports',
+            position: 'left',
+            items: [
+              {
+                to: '/sports',
+                label: 'Overview',
+              },
+              {
+                to: '/sports/table-tennis',
+                label: 'Table Tennis',
+              },
+            ],
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
