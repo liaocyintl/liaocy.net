@@ -5,6 +5,7 @@ import TabBar, { Tab } from '@site/src/components/travel/TabBar';
 import styles from './australia.module.css';
 
 const UniversityMap = lazy(() => import('@site/src/components/travel/UniversityMap'));
+const CityGuide = lazy(() => import('@site/src/components/travel/CityGuide'));
 
 const TABS: Tab[] = [
   {
@@ -65,7 +66,9 @@ export default function AustraliaPage(): JSX.Element {
           </Suspense>
         )}
         {activeTab === 'cities' && (
-          <div className={styles.placeholder}>Cities module coming soon...</div>
+          <Suspense fallback={<div className={styles.placeholder}>Loading...</div>}>
+            <CityGuide />
+          </Suspense>
         )}
         {activeTab === 'work' && (
           <div className={styles.placeholder}>Work module coming soon...</div>

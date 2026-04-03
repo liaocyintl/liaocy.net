@@ -1,0 +1,236 @@
+{
+  "weekly_schedule": [
+    {
+      "day_en": "Monday", "day_zh": "Monday",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "Wake up, wash up"},
+        {"time": "07:00", "activity_zh": "Breakfast (toast with avocado or cereal)"},
+        {"time": "07:30", "activity_zh": "Commute to work or school"},
+        {"time": "10:00", "activity_zh": "Morning tea, coffee break"},
+        {"time": "12:00", "activity_zh": "Lunch — sandwich, salad, or sushi"},
+        {"time": "17:00", "activity_zh": "Finish work, some people hit the gym"},
+        {"time": "19:00", "activity_zh": "Cook dinner at home"},
+        {"time": "20:00", "activity_zh": "Watch Netflix or browse social media"},
+        {"time": "22:30", "activity_zh": "Bedtime"}
+      ],
+      "notes_zh": "Monday marks the start of the week. Coffee shops are especially busy in the morning — a Flat White is many people's 'lifeline'."
+    },
+    {
+      "day_en": "Tuesday", "day_zh": "Tuesday",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "Wake up"},
+        {"time": "07:30", "activity_zh": "Commute"},
+        {"time": "08:30", "activity_zh": "Work or classes"},
+        {"time": "12:00", "activity_zh": "Lunch"},
+        {"time": "17:00", "activity_zh": "Finish work, attend club meetings or interest groups"},
+        {"time": "18:00", "activity_zh": "Grocery shopping"},
+        {"time": "19:00", "activity_zh": "Cook at home"},
+        {"time": "22:00", "activity_zh": "Bedtime"}
+      ],
+      "notes_zh": "Many restaurants offer specials on Tuesdays, such as Taco Tuesday or half-price pizza — a great day to eat out."
+    },
+    {
+      "day_en": "Wednesday", "day_zh": "Wednesday",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "Wake up"},
+        {"time": "08:30", "activity_zh": "Work or classes"},
+        {"time": "12:00", "activity_zh": "Lunch — some universities offer free BBQ"},
+        {"time": "17:00", "activity_zh": "Finish work"},
+        {"time": "17:30", "activity_zh": "Sports or gym session"},
+        {"time": "19:00", "activity_zh": "Dinner"},
+        {"time": "20:00", "activity_zh": "Chat with friends or play games"},
+        {"time": "22:30", "activity_zh": "Bedtime"}
+      ],
+      "notes_zh": "Wednesday is called 'Hump Day' (halfway through the week), and many university clubs hold events at midday on Wednesdays."
+    },
+    {
+      "day_en": "Thursday", "day_zh": "Thursday",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "Wake up"},
+        {"time": "08:30", "activity_zh": "Work or classes"},
+        {"time": "12:00", "activity_zh": "Lunch"},
+        {"time": "17:00", "activity_zh": "Finish work"},
+        {"time": "17:30", "activity_zh": "Shopping (Late Night Shopping evening)"},
+        {"time": "19:00", "activity_zh": "Dinner"},
+        {"time": "20:00", "activity_zh": "University students' social night out"},
+        {"time": "23:00", "activity_zh": "Head home"}
+      ],
+      "notes_zh": "Thursday evening is Late Night Shopping in many cities, with stores open until 9pm. It's also a popular night out for university students."
+    },
+    {
+      "day_en": "Friday", "day_zh": "Friday",
+      "typical_schedule": [
+        {"time": "06:30", "activity_zh": "Wake up"},
+        {"time": "08:30", "activity_zh": "Work or classes"},
+        {"time": "12:00", "activity_zh": "Lunch"},
+        {"time": "16:30", "activity_zh": "Many people leave work early on Fridays"},
+        {"time": "17:00", "activity_zh": "Friday Drinks — head to the pub with colleagues and friends"},
+        {"time": "19:00", "activity_zh": "Eat out or order takeaway"},
+        {"time": "20:30", "activity_zh": "Go to the movies, a bar, or a party"},
+        {"time": "23:30", "activity_zh": "Head home"}
+      ],
+      "notes_zh": "Friday Drinks is an important part of Australian workplace culture — colleagues head to the pub together to unwind. International students can use this as an opportunity to integrate into social circles."
+    },
+    {
+      "day_en": "Saturday", "day_zh": "Saturday",
+      "typical_schedule": [
+        {"time": "08:00", "activity_zh": "Sleep in then get up"},
+        {"time": "08:30", "activity_zh": "Head to a cafe for brunch"},
+        {"time": "10:00", "activity_zh": "Visit the farmers' market"},
+        {"time": "11:30", "activity_zh": "Housework and laundry"},
+        {"time": "13:00", "activity_zh": "Outdoor activities: beach, park, or bushwalk"},
+        {"time": "16:00", "activity_zh": "BBQ gathering with friends"},
+        {"time": "19:30", "activity_zh": "Dine out"},
+        {"time": "21:00", "activity_zh": "See a show, watch a match, or socialise"},
+        {"time": "00:00", "activity_zh": "Head home"}
+      ],
+      "notes_zh": "Saturday is the most active day. Brunch culture thrives with long queues at cafes, and an afternoon BBQ is the quintessential way to socialise."
+    },
+    {
+      "day_en": "Sunday", "day_zh": "Sunday",
+      "typical_schedule": [
+        {"time": "09:00", "activity_zh": "Sleep until you wake naturally"},
+        {"time": "09:30", "activity_zh": "Enjoy a leisurely brunch"},
+        {"time": "11:00", "activity_zh": "Reading or watching shows"},
+        {"time": "12:30", "activity_zh": "Walk in the park or light exercise"},
+        {"time": "14:00", "activity_zh": "Shopping (note that shops close early)"},
+        {"time": "16:00", "activity_zh": "Meal prep — prepare lunches for the week ahead"},
+        {"time": "17:30", "activity_zh": "Cook with housemates"},
+        {"time": "20:00", "activity_zh": "Plan for the coming week of study/work"},
+        {"time": "22:00", "activity_zh": "Early night"}
+      ],
+      "notes_zh": "Sunday is a rest day. Many shops close at 4-5pm and supermarkets close early too, so plan your shopping ahead of time."
+    }
+  ],
+  "food_culture": {
+    "breakfast": {
+      "description_zh": "Australians take breakfast seriously. On weekdays, it's a quick meal at home or a coffee grabbed on the go; on weekends, heading to a cafe for a hearty brunch is the norm.",
+      "common_items_zh": ["Avocado Toast", "Vegemite Toast (classic Australian savoury spread)", "Cereal with milk (Weet-Bix is the national brand)", "Bacon and eggs on toast", "Yoghurt with fruit and muesli", "Flat White coffee"],
+      "avg_cost": 15
+    },
+    "lunch": {
+      "description_zh": "Lunch is usually quick and simple — many people bring their own or grab something from a campus canteen or fast food outlet. Sandwiches, salads, and sushi rolls are the most common choices.",
+      "common_items_zh": ["Sandwich or Wrap", "Sushi Roll", "Salad", "Meat Pie (Australian classic)", "Pho (Vietnamese noodle soup)", "Fish and Chips"],
+      "avg_cost": 15
+    },
+    "dinner": {
+      "description_zh": "Dinner is the main meal of the day, usually cooked at home, with dining out more common on weekends. Dinner time in Australia is typically 6:30-7:30pm, earlier than in China.",
+      "common_items_zh": ["Roast meat with vegetables and potatoes", "Pasta", "Stir-fry with rice", "BBQ", "Curry with rice", "Steak"],
+      "avg_cost": 25
+    },
+    "coffee_culture_zh": "Australia has one of the world's most discerning coffee cultures — the Flat White was invented here. Australians have extremely high standards for quality, with independent specialty cafes everywhere. Starbucks actually struggles in Australia. A coffee costs $5-7, and many people have at least one a day.",
+    "dining_out_tips_zh": [
+      "Australian restaurants generally do not expect tips — the bill amount is the final price",
+      "Many restaurants are BYO (Bring Your Own), allowing you to bring your own alcohol, with a possible corkage fee of $3-5 per bottle",
+      "Dining on weekends and public holidays may incur a 10%-15% surcharge, which will be noted on the menu",
+      "For popular restaurants, book via OpenTable or by phone. Friday and Saturday evenings should be booked at least a week in advance"
+    ],
+    "asian_food_zh": "Australia has an excellent range of Asian cuisine. Areas like Chinatown, Burwood, and Hurstville in Sydney, and Box Hill and Glen Waverley in Melbourne, have a wealth of authentic Chinese restaurants and Asian supermarkets that can fully satisfy any craving for home cooking.",
+    "popular_cuisines": [
+      {"name_zh": "Australian Cuisine", "description_zh": "Represented by BBQ, meat pies, and fish and chips, with an emphasis on fresh ingredients"},
+      {"name_zh": "Italian Cuisine", "description_zh": "Italian immigrants have profoundly influenced Australian food culture — pizza and pasta are the most popular everyday foods"},
+      {"name_zh": "Chinese Cuisine", "description_zh": "From Cantonese dim sum to Sichuan hotpot, regional Chinese cuisines are widely available in major cities, often more affordable than Western dining"},
+      {"name_zh": "Vietnamese Cuisine", "description_zh": "Pho and Banh Mi are hugely popular as affordable eats, with Vietnamese restaurants in virtually every suburb"},
+      {"name_zh": "Japanese Cuisine", "description_zh": "Sushi rolls are extremely common and a popular lunch choice, with ramen shops also growing in number"},
+      {"name_zh": "Thai Cuisine", "description_zh": "Pad Thai and various curries are Australian favourites, moderately priced"},
+      {"name_zh": "Greek Cuisine", "description_zh": "Melbourne has the largest Greek diaspora community in the world — Souvlaki and salads are very common"},
+      {"name_zh": "Indian Cuisine", "description_zh": "Curries, Naan, and Chai are very popular, especially around university precincts"}
+    ]
+  },
+  "hobbies": [
+    {"name_zh": "Surfing", "name_en": "Surfing", "popularity": "Very Popular", "cost_level": "Medium", "description_zh": "Australia has world-class surf beaches. Beginner lessons cost around $70-100 per session, or you can rent a board and practise on your own.", "student_friendly": true},
+    {"name_zh": "Bushwalking", "name_en": "Bushwalking", "popularity": "Very Popular", "cost_level": "Free", "description_zh": "Countless national parks and walking trails. Sydney's Blue Mountains and Melbourne's Great Ocean Road area offer exceptional routes.", "student_friendly": true},
+    {"name_zh": "BBQ", "name_en": "BBQ", "popularity": "Very Popular", "cost_level": "Low", "description_zh": "Free electric BBQs are found in parks everywhere. Grab some sausages and steaks, invite your friends — it's the most Australian way to socialise.", "student_friendly": true},
+    {"name_zh": "Swimming / Beach", "name_en": "Swimming / Beach", "popularity": "Very Popular", "cost_level": "Free", "description_zh": "Free public beaches line every coastal city. Community pool student entry is around $5-8.", "student_friendly": true},
+    {"name_zh": "Gym / Fitness", "name_en": "Gym / Fitness", "popularity": "Very Popular", "cost_level": "Medium", "description_zh": "Universities usually have their own gym, with access included in student union fees — excellent value.", "student_friendly": true},
+    {"name_zh": "Watching AFL / Cricket", "name_en": "Watching AFL / Cricket", "popularity": "Very Popular", "cost_level": "Medium", "description_zh": "AFL and cricket are the most popular sports. Attending a live match is a great way to experience Australian culture — general admission tickets are around $30-60.", "student_friendly": true},
+    {"name_zh": "Camping", "name_en": "Camping", "popularity": "Popular", "cost_level": "Medium", "description_zh": "Plenty of well-equipped campsites available. National park camping costs around $15-40 per night — an affordable holiday option.", "student_friendly": true},
+    {"name_zh": "Cafe Hopping", "name_en": "Cafe Hopping", "popularity": "Popular", "cost_level": "Low", "description_zh": "Visiting different specialty cafes is a popular activity among young people, especially in Melbourne. A coffee costs $5-7.", "student_friendly": true},
+    {"name_zh": "Cycling", "name_en": "Cycling", "popularity": "Popular", "cost_level": "Medium", "description_zh": "Cities have extensive bike paths. A second-hand bike costs around $100-300. Note: Australian law requires helmets to be worn while cycling.", "student_friendly": true},
+    {"name_zh": "Yoga", "name_en": "Yoga", "popularity": "Popular", "cost_level": "Medium", "description_zh": "Yoga studios often have introductory offers (e.g. two weeks unlimited for $30). Universities and community centres also offer free yoga classes.", "student_friendly": true},
+    {"name_zh": "Fishing", "name_en": "Fishing", "popularity": "Common", "cost_level": "Low", "description_zh": "A fishing licence is required (around $10-35/year). Both saltwater and freshwater fishing are popular.", "student_friendly": true},
+    {"name_zh": "Volunteering", "name_en": "Volunteering", "popularity": "Common", "cost_level": "Free", "description_zh": "Australia has a strong volunteering culture. It's a great way to make friends, improve English, and enhance your resume. Find opportunities through the GoVolunteer website.", "student_friendly": true}
+  ],
+  "monthly_budget": {
+    "categories": [
+      {"category_zh": "Rent", "min": 800, "max": 1600, "tips_zh": "Sharing a house is the most economical option. Find accommodation through Flatmates.com.au and Domain. Living further from the city centre can save a lot."},
+      {"category_zh": "Groceries", "min": 300, "max": 500, "tips_zh": "Check weekly specials at Woolworths and Coles. ALDI is typically 15%-20% cheaper. Meat and bread are often marked down before closing time."},
+      {"category_zh": "Transport", "min": 80, "max": 200, "tips_zh": "Get a student transport card (Sydney Opal, Melbourne Myki) for half-price fares. Living close to campus and walking saves the most."},
+      {"category_zh": "Phone & Internet", "min": 30, "max": 60, "tips_zh": "Recommended: Vodafone or Optus prepaid plans at $30-40/month. Split home broadband with housemates for around $20-30/month each."},
+      {"category_zh": "Entertainment", "min": 50, "max": 150, "tips_zh": "Many museums and galleries are free. Cinemas offer discount Tuesdays. Make good use of your student ID for discounts."},
+      {"category_zh": "Dining Out", "min": 100, "max": 300, "tips_zh": "Cook at home more often. Asian restaurants offer better value. Lunch specials are usually much cheaper than dinner."},
+      {"category_zh": "Utilities", "min": 60, "max": 120, "tips_zh": "Split with housemates. Heating costs increase in winter. Remember to turn off lights and heaters to save energy."},
+      {"category_zh": "Health Insurance (OSHC)", "min": 50, "max": 70, "tips_zh": "Mandatory for international students, usually paid in full when applying for your visa. Options include Medibank, Bupa, and Allianz."}
+    ],
+    "total_min": 1470,
+    "total_max": 3000,
+    "saving_tips_zh": [
+      "Do weekly meal prep — batch-cook lunches to take to campus. This saves at least $50/week compared to buying food",
+      "Download the Woolworths and Coles apps to track half-price specials. Grab discounted meat and bread before closing time",
+      "Buy second-hand textbooks or borrow from the library. New textbooks cost $100-200 each; second-hand or digital versions save a lot",
+      "Take advantage of student discounts: Apple Music/Spotify student plans are half price, Amazon Prime Student is around $35/year",
+      "Watch for Boxing Day, EOFY, and Black Friday sales to buy big-ticket items"
+    ]
+  },
+  "cultural_tips": [
+    {"title_zh": "Punctuality is very important", "description_zh": "Australians place great value on being on time — being late is considered rude. If you are unavoidably delayed, always let the other person know in advance. Aim to arrive 5 minutes early.", "importance": "Essential"},
+    {"title_zh": "Queuing culture", "description_zh": "Whether at the supermarket, bus stop, or cafe, you should queue. Pushing in will be called out. This may differ from what you're used to in some situations back home.", "importance": "Essential"},
+    {"title_zh": "Greet with 'G'day'", "description_zh": "Australians often say 'G'day' or 'How are you going?' — this is just a polite greeting. Simply reply 'Good, thanks! You?' Checkout staff will often make small talk too.", "importance": "Essential"},
+    {"title_zh": "Please and Thank you", "description_zh": "Saying 'please' and 'thank you' is basic etiquette — not saying them comes across as rude. Saying 'Thanks, driver' when getting off the bus is a quintessentially Australian habit.", "importance": "Essential"},
+    {"title_zh": "Sun protection is essential", "description_zh": "Australia has some of the highest UV levels in the world. Always apply SPF50+ sunscreen, wear a hat, and use sunglasses when going outdoors. Sun protection is needed even on cloudy days.", "importance": "Essential"},
+    {"title_zh": "Respect multiculturalism", "description_zh": "Australia's population comes from over 200 countries. Showing respect for different races, religions, and sexual orientations is very important. Discriminatory remarks are unacceptable and may even be illegal.", "importance": "Essential"},
+    {"title_zh": "Personal space", "description_zh": "Maintain about an arm's length distance when talking. Avoid touching others casually, apart from handshakes and hugs between close friends. Keep your distance when queuing and on public transport.", "importance": "Important"},
+    {"title_zh": "Direct communication", "description_zh": "Australians tend to communicate directly. Professors encourage students to express their opinions and even challenge authority. Don't interpret directness as aggression.", "importance": "Important"},
+    {"title_zh": "Splitting the bill", "description_zh": "When eating out with friends, it's customary to split the bill (go Dutch), rather than one person treating everyone. Restaurant staff are very used to splitting bills.", "importance": "Important"},
+    {"title_zh": "Lots of Aussie slang", "description_zh": "Arvo = afternoon, brekkie = breakfast, Maccas = McDonald's, servo = petrol station. It might be confusing at first, but you'll get used to it.", "importance": "Important"},
+    {"title_zh": "Don't ask about income or age", "description_zh": "Directly asking about salary, property prices, age, or weight is considered impolite — quite different from social norms in some other cultures.", "importance": "Important"},
+    {"title_zh": "Waste sorting", "description_zh": "Red bin = general waste, yellow bin = recyclables, green bin = organic waste. Supermarkets don't provide free plastic bags, so bring your own. Littering can result in fines.", "importance": "Important"}
+  ],
+  "public_holidays": [
+    {"name_en": "New Year's Day", "name_zh": "New Year's Day", "date_zh": "1 January", "description_zh": "Join fireworks parties and countdowns on New Year's Eve. Sydney Harbour Bridge's fireworks display is world-famous.", "student_impact_zh": "Most shops are closed or have reduced hours. Working on this day earns double or 2.5x pay."},
+    {"name_en": "Australia Day", "name_zh": "Australia Day", "date_zh": "26 January", "description_zh": "A day for BBQs, beach gatherings, and fireworks. There are also events and discussions about Indigenous rights.", "student_impact_zh": "National public holiday with many free community outdoor events — a great opportunity to experience the culture and socialise."},
+    {"name_en": "Good Friday & Easter", "name_zh": "Good Friday & Easter", "date_zh": "Late March to mid-April (varies each year)", "description_zh": "A four-day holiday. People eat Hot Cross Buns and chocolate Easter eggs, and many families go camping.", "student_impact_zh": "Almost all shops close on Good Friday — stock up on food beforehand. The four-day break is perfect for a short trip. Working earns 2.5x pay."},
+    {"name_en": "Anzac Day", "name_zh": "Anzac Day", "date_zh": "25 April", "description_zh": "Commemorating those who served in wars, with Dawn Services in the early morning followed by marches.", "student_impact_zh": "Shops are closed in the morning and may reopen in the afternoon. This is a solemn day of remembrance — please respect local customs."},
+    {"name_en": "Queen's/King's Birthday", "name_zh": "King's Birthday", "date_zh": "Second Monday of June in most states", "description_zh": "Essentially an extra day off, creating a three-day long weekend.", "student_impact_zh": "One day off. Shop hours may be reduced. Working earns public holiday penalty rates."},
+    {"name_en": "Christmas Day", "name_zh": "Christmas Day", "date_zh": "25 December", "description_zh": "Christmas in Australia falls in summer. People gather for meals and exchange gifts, and many head to the beach for a summer Christmas.", "student_impact_zh": "Almost all shops and public transport are closed. Plan gatherings with friends in advance. Working earns 2.5x pay."},
+    {"name_en": "Boxing Day", "name_zh": "Boxing Day", "date_zh": "26 December", "description_zh": "Australia's biggest shopping sale day of the year, with major stores opening early and offering 30%-70% off.", "student_impact_zh": "Shops reopen with extended hours — the best time to buy electronics and clothing."},
+    {"name_en": "Melbourne Cup", "name_zh": "Melbourne Cup", "date_zh": "First Tuesday of November", "description_zh": "Known as 'the race that stops a nation', people dress up to watch the horse race broadcast.", "student_impact_zh": "Public holiday in the Melbourne area; not a holiday in other states, but many workplaces organise viewing events."}
+  ],
+  "shopping": {
+    "supermarkets": [
+      {"name": "Woolworths", "description_zh": "The largest supermarket chain, with weekly specials updated on Wednesdays. Download the Everyday Rewards app for points and discounts. Their Essentials house brand is affordable."},
+      {"name": "Coles", "description_zh": "On par with Woolworths. Flybuys loyalty card for points. Half-price specials updated every Wednesday. Their house brand offers great value."},
+      {"name": "ALDI", "description_zh": "German discount supermarket, 15%-20% cheaper. Special Buys on Wednesdays and Saturdays. No bags provided — bring your own."},
+      {"name": "IGA", "description_zh": "Community-style supermarket. Slightly pricier but with longer opening hours, some open 24 hours."},
+      {"name": "Costco", "description_zh": "Warehouse-style membership supermarket, $65/year membership fee. Great for bulk buying with housemates."}
+    ],
+    "asian_groceries_zh": "Major cities have excellent Asian supermarkets, such as TongFa and Dah Hua in Sydney and Melbourne. You can find Chinese seasonings, hotpot bases, instant noodles, tofu, Chinese vegetables, and more. Woolworths and Coles also stock Asian food sections.",
+    "online_shopping": [
+      {"name": "Amazon Australia", "description_zh": "Prime Student is half price at around $35/year. Good selection of electronics and books."},
+      {"name": "eBay Australia", "description_zh": "Both new and second-hand items. Great for buying second-hand furniture and electronics at good prices."},
+      {"name": "Kmart / Target", "description_zh": "Affordable department stores. Household items and stationery are cheap — the first stop for setting up when you arrive in Australia."},
+      {"name": "Gumtree", "description_zh": "Australia's equivalent of a classifieds marketplace. Also has listings for rentals and part-time jobs."},
+      {"name": "Facebook Marketplace", "description_zh": "Very popular among students. Graduating students often sell their belongings at low prices."},
+      {"name": "Chemist Warehouse", "description_zh": "The largest pharmacy chain. Offers the lowest prices on health supplements and skincare, with frequent sales."}
+    ],
+    "tipping_zh": "Australia does not have a tipping culture, unlike the United States. Waitstaff are already paid a fair wage included in menu prices (minimum hourly rate around $24). Not tipping is completely normal. If the service was exceptional, you can leave some loose change, but it is never expected.",
+    "sales_events": [
+      {"name_zh": "Boxing Day Sales", "when_zh": "From 26 December for about one week", "description_zh": "The year's biggest sales event, with 30%-70% off at major retailers — electronics and clothing are the highlights."},
+      {"name_zh": "EOFY (End of Financial Year) Sales", "when_zh": "Mid-June to 30 June", "description_zh": "Australia's financial year ends on 30 June, and retailers clear stock. Big discounts on electronics and furniture."},
+      {"name_zh": "Black Friday", "when_zh": "Last Friday of November and the following weekend", "description_zh": "Major discounts online and in-store, with electronics and fashion brands seeing the biggest markdowns."},
+      {"name_zh": "Click Frenzy", "when_zh": "May and November", "description_zh": "Australia's homegrown online shopping event, similar to Singles' Day, with many participating brands."},
+      {"name_zh": "Supermarket Weekly Half-Price Specials", "when_zh": "Updated every Wednesday", "description_zh": "Woolworths and Coles alternate half-price offers. Plan your weekly shop around both stores' specials to save the most."}
+    ]
+  },
+  "transport": {
+    "modes": [
+      {"name_zh": "Train / Metro", "description_zh": "The main form of public transport in major cities. Sydney and Melbourne have extensive networks. Peak hours (7-9am, 4-6:30pm) can be crowded.", "student_discount_zh": "NSW student Opal card offers half-price fares. Victoria's iUSE student Myki card provides discounted fares. A full-time enrolment letter from your university is required to apply."},
+      {"name_zh": "Bus", "description_zh": "Covers a wider area than trains, connecting train stations to residential areas. Uses the same transport card as trains.", "student_discount_zh": "Same student discount as trains. Transfers are usually charged as a single journey."},
+      {"name_zh": "Tram", "description_zh": "Melbourne has the world's largest tram network. Travel within the CBD (Free Tram Zone) is completely free.", "student_discount_zh": "Melbourne's Free Tram Zone is free for everyone. Outside the zone, use a student Myki card for discounted fares."},
+      {"name_zh": "Ferry", "description_zh": "Sydney ferries serve both commuting and sightseeing, connecting Circular Quay to Manly and other destinations. Brisbane has the CityCat service.", "student_discount_zh": "Student transport cards offer the same discounts. The Sydney to Manly ferry is the most popular route."}
+    ],
+    "driving_zh": "Australians drive on the left side of the road (opposite to China). You can legally drive in Australia with a Chinese licence, but must carry a NAATI-certified English translation. For long-term stays, obtaining a local licence is recommended. Buy second-hand cars through Carsales.com.au and run a PPSR check before purchasing. City centre parking costs around $10-15 per hour.",
+    "cycling_zh": "Wearing a helmet while cycling is required by law — fines are around $300-400. Most cities have dedicated cycling lanes. A second-hand bike can be found on Gumtree for $100-300.",
+    "rideshare_zh": "Uber and DiDi are the main rideshare platforms. DiDi is typically 10%-15% cheaper than Uber. Surge pricing applies during peak hours and late at night. Splitting a ride with friends can sometimes be cheaper than buying individual public transport tickets."
+  }
+}

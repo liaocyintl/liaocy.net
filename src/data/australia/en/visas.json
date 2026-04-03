@@ -1,0 +1,70 @@
+[
+  {
+    "visa_name_zh": "Student Visa",
+    "visa_name_en": "Student Visa",
+    "subclass": "500",
+    "work_hours": "Up to 48 hours per fortnight during term, unlimited hours during scheduled breaks.",
+    "duration": "Tied to course length, typically 2-5 years, with an additional 2-3 months validity after course completion.",
+    "eligibility": "International students who have received a Confirmation of Enrolment (CoE) from a CRICOS-registered institution. Must meet English proficiency, financial capacity, OSHC insurance, and Genuine Student (GS) requirements.",
+    "description": "The Subclass 500 Student Visa is the primary visa type for international students studying in Australia, covering language courses, foundation programs, undergraduate, postgraduate, and doctoral degrees. From July 2024, the work limit was adjusted to 48 hours per fortnight during term, with unlimited full-time work allowed during holidays. Visa holders' partners may also obtain work rights when the primary applicant is enrolled in a master's or doctoral program. Note that attendance must be at least 80% and academic progress must be satisfactory.",
+    "pros": [
+      "Legal work rights during studies, up to 48 hours per fortnight, unlimited during holidays",
+      "Visa duration matches course length, no need for frequent renewals",
+      "Eligible to apply for a 485 Post-Study Work visa after graduation to stay in Australia",
+      "Partners can accompany and have work rights (postgraduate and above)",
+      "Multiple entry allowed, convenient for visiting home during holidays"
+    ],
+    "cons": [
+      "Work hours are limited during term, capping income potential",
+      "Must continuously meet attendance and academic progress requirements",
+      "Visa application fee is relatively high (approx. $710), plus mandatory OSHC insurance",
+      "Genuine Student (GS) requirement is being assessed more strictly, with rising refusal rates"
+    ]
+  },
+  {
+    "visa_name_zh": "Work and Holiday Visa",
+    "visa_name_en": "Work and Holiday Visa",
+    "subclass": "462",
+    "work_hours": "No weekly work hour limit, full-time work allowed. However, working for the same employer is typically limited to 6 months.",
+    "duration": "Initial 12 months; can be renewed for a second and third year after meeting specified work requirements in regional areas, up to a maximum of 3 years.",
+    "eligibility": "Chinese passport holders aged 18-30 (under 31 at time of application), with at least two years of higher education, English proficiency at IELTS 4.5 or CET-4/CET-6, and no previous 462 visa. Approximately 5,000 places available per year.",
+    "description": "The Subclass 462 Work and Holiday Visa has been available to Chinese citizens since 2015 and is a popular visa for young people to experience Australian life and work. Holders can work full-time with no weekly hour restrictions and can also undertake short-term study of up to 4 months. Around 5,000 places are offered annually and competition is fierce. Completing 88 days of specified work in regional areas qualifies for renewal, allowing a total stay of up to 3 years.",
+    "pros": [
+      "Full-time legal work with no weekly hour limit, high earning potential",
+      "High degree of freedom to travel and work across Australia",
+      "Can be renewed for up to 3 years if conditions are met",
+      "Can combine with short-term study (up to 4 months)",
+      "Relatively low visa application fee (approx. $640)"
+    ],
+    "cons": [
+      "Limited annual quota (approx. 5,000 places), extremely competitive",
+      "Age restriction of 18-30, ineligible after turning 31",
+      "Cannot work for the same employer for more than 6 months",
+      "Study limited to 4 months, cannot pursue long-term courses",
+      "Renewal requires specified manual work in regional areas"
+    ]
+  },
+  {
+    "visa_name_zh": "Temporary Graduate Visa",
+    "visa_name_en": "Temporary Graduate Visa",
+    "subclass": "485",
+    "work_hours": "No work hour restrictions, full-time work allowed with full work rights.",
+    "duration": "Bachelor's: 2 years, Master's (coursework): 2 years, Master's (research): 3 years, Doctorate: 4 years. Regional graduates may receive an additional 1-2 year extension.",
+    "eligibility": "Must have completed at least 2 academic years (92 weeks) of a CRICOS-registered course in Australia and obtained a qualification. Application must be submitted within 6 months of graduation, under age 50, IELTS 6.0 (no band below 5.0), and valid health insurance required.",
+    "description": "The Subclass 485 Temporary Graduate Visa is the main pathway for international students to remain in Australia and work after graduation. The Post-Study Work stream does not require a skills assessment, and the duration depends on the level of qualification. This visa provides full work rights and is a crucial stepping stone for gaining Australian work experience and applying for permanent residency. Some policies have been tightened since 2024, so staying up to date with the latest requirements is advised.",
+    "pros": [
+      "Full work rights with no hour restrictions",
+      "Generous duration (Bachelor's 2 years, Master's 2-3 years, Doctorate 4 years)",
+      "Regional graduates may receive an additional 1-2 years",
+      "Important transitional visa for skilled migration pathways (189/190/491)",
+      "No employer sponsorship required, free to choose any job"
+    ],
+    "cons": [
+      "Must have completed at least 2 academic years of study in Australia",
+      "Application must be submitted within 6 months of graduation or eligibility is lost",
+      "Must leave Australia if permanent residency is not obtained by visa expiry",
+      "Relatively high visa application fee (approx. $1,895)",
+      "Some fields of study may no longer be eligible from 2024 onwards"
+    ]
+  }
+]

@@ -428,5 +428,15 @@
   "aus.uni.qsRank": { "message": "QSランキング" },
   "aus.uni.tuition": { "message": "学費" },
   "aus.uni.perYear": { "message": "年" },
-  "aus.uni.filter.other": { "message": "その他" }
+  "aus.uni.filter.other": { "message": "その他" },
+
+  "aus.city.population": { "message": "人口" },
+  "aus.city.medianIncome": { "message": "収入中央値" },
+  "aus.city.rentWeek": { "message": "週間家賃" },
+  "aus.city.transportMonth": { "message": "月間交通費" },
+  "aus.city.avgMeal": { "message": "平均食事代" },
+  "aus.city.coffee": { "message": "コーヒー平均" },
+  "aus.city.climate": { "message": "気候" },
+  "aus.city.universities": { "message": "大学" },
+  "aus.city.industries": { "message": "主要産業" }
 }
