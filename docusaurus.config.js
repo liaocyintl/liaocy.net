@@ -126,6 +126,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/travel',
+            label: 'Explore',
+            position: 'left',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },

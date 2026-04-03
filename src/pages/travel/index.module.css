@@ -1,0 +1,89 @@
+.heroBanner {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: radial-gradient(circle at center, rgba(77, 184, 255, 0.1) 0%, transparent 70%);
+}
+
+[data-theme='light'] .heroBanner {
+  background: radial-gradient(circle at center, rgba(0, 102, 204, 0.08) 0%, transparent 70%);
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  opacity: 0.85;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  display: block;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 20px rgba(77, 184, 255, 0.15);
+  text-decoration: none;
+  color: inherit;
+}
+
+[data-theme='light'] .card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='light'] .card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.cardFlag {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.cardTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.cardDesc {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.2rem;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+}

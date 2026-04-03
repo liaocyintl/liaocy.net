@@ -407,5 +407,11 @@
   },
   "timeline.phd.title": {
     "message": "计算机科学博士"
-  }
+  },
+
+  "travel.pageTitle": { "message": "游天下" },
+  "travel.heroTitle": { "message": "游天下" },
+  "travel.heroSubtitle": { "message": "海外留学与生活指南" },
+  "travel.australia.title": { "message": "澳大利亚留学" },
+  "travel.australia.desc": { "message": "澳大利亚留学全攻略 — 大学、城市、打工、就业、生活一站式指南" }
 }

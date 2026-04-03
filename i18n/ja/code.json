@@ -407,5 +407,11 @@
   },
   "timeline.phd.title": {
     "message": "博士（工学）"
-  }
+  },
+
+  "travel.pageTitle": { "message": "世界を巡る" },
+  "travel.heroTitle": { "message": "世界を巡る" },
+  "travel.heroSubtitle": { "message": "海外留学・生活のガイドとツール" },
+  "travel.australia.title": { "message": "オーストラリア留学" },
+  "travel.australia.desc": { "message": "オーストラリア留学の総合ガイド — 大学、都市、アルバイト、就職、生活情報" }
 }
