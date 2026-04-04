@@ -24,6 +24,16 @@ const config = {
   organizationName: 'liaocyintl', // Usually your GitHub org/user name.
   projectName: 'liaocy.net', // Usually your repo name.
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'color-scheme',
+        content: 'dark light',
+      },
+    },
+  ],
+
   onBrokenLinks: 'throw',
   // onBrokenMarkdownLinks: 'warn', // Deprecated
   markdown: {
@@ -199,7 +209,7 @@ const config = {
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
-        respectPrefersColorScheme: true,
+        respectPrefersColorScheme: false,
       },
     }),
   plugins: [
