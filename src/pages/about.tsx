@@ -22,6 +22,17 @@ export default function AboutPage(): JSX.Element {
       </header>
 
       <main>
+        <div className={styles.badgeSection}>
+          <img
+            src="/img/2026_All_AWS_Certs_Badge.png"
+            alt="All AWS Certifications Engineer 2026"
+            className={styles.badgeImage}
+          />
+          <p className={styles.badgeCaption}>
+            {translate({ id: 'about.awsBadgeCaption', message: 'All AWS Certifications Engineer 2026' })}
+          </p>
+        </div>
+
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>
             {translate({ id: 'about.experienceCerts', message: 'Experience & Certifications' })}

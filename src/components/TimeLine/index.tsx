@@ -17,6 +17,7 @@ type ResumeItem = {
   subtitle: string;
   description: string;
   date: string;
+  badgeImage?: string;
 };
 
 const ResumeList: ResumeItem[] = [
@@ -26,6 +27,14 @@ const ResumeList: ResumeItem[] = [
     title: translate({id: 'timeline.toyota.title', message: 'System Engineer, Assistant Manager'}),
     subtitle: 'Toyota Motor Corporation',
     description: translate({id: 'timeline.toyota.location', message: 'Tokyo, Japan'}),
+  },
+  {
+    type: Type.Certification,
+    date: translate({id: 'timeline.cert.awsAll.date', message: 'April 2026'}),
+    title: 'All AWS Certifications Engineer',
+    subtitle: 'AWS Training & Certification',
+    description: translate({id: 'timeline.cert.awsAll.desc', message: 'Achieved all current AWS certifications'}),
+    badgeImage: '/img/2026_All_AWS_Certs_Badge.png',
   },
   {
     type: Type.Certification,
@@ -211,7 +220,7 @@ const ResumeList: ResumeItem[] = [
   },
 ];
 
-function Resume({ type, date, title, subtitle, description }: ResumeItem) {
+function Resume({ type, date, title, subtitle, description, badgeImage }: ResumeItem) {
   const { colorMode } = useColorMode();
   const isDark = colorMode === 'dark';
 
@@ -260,6 +269,9 @@ function Resume({ type, date, title, subtitle, description }: ResumeItem) {
       iconStyle={iconStyle}
       icon={icon}
     >
+      {badgeImage && (
+        <img src={badgeImage} alt={title} style={{ width: 80, height: 80, display: 'block', marginBottom: '0.75rem' }} />
+      )}
       <h3 className="vertical-timeline-element-title" style={{ color: isDark ? 'var(--ifm-color-primary-lightest)' : 'var(--ifm-color-primary-dark)' }}>{title}</h3>
       <h4 className="vertical-timeline-element-subtitle" style={{ opacity: 0.8 }}>{subtitle}</h4>
       <p style={{ opacity: 0.9 }}>

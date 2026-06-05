@@ -57,6 +57,31 @@
   border-radius: 2px;
 }
 
+.badgeSection {
+  text-align: center;
+  padding: 2.5rem 2rem 0;
+  animation: fadeInUp 0.7s ease-out 0.2s both;
+}
+
+.badgeImage {
+  width: 130px;
+  height: 130px;
+  filter: drop-shadow(0 4px 16px rgba(91, 158, 255, 0.3));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.badgeImage:hover {
+  transform: scale(1.06);
+  filter: drop-shadow(0 6px 24px rgba(91, 158, 255, 0.5));
+}
+
+.badgeCaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  letter-spacing: 0.02em;
+}
+
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }

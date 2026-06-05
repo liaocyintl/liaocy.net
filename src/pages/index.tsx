@@ -77,6 +77,16 @@ function HomepageHeader() {
             </Link>
           ))}
         </div>
+        <div className={styles.badgeRow}>
+          <img
+            src="/img/2026_All_AWS_Certs_Badge.png"
+            alt="All AWS Certifications Engineer 2026"
+            className={styles.heroBadge}
+          />
+          <span className={styles.badgeLabel}>
+            {translate({ id: 'homepage.awsBadgeLabel', message: 'All AWS Certifications Engineer 2026' })}
+          </span>
+        </div>
       </div>
     </header>
   );

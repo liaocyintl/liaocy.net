@@ -110,6 +110,33 @@
   white-space: nowrap;
 }
 
+.badgeRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  animation: fadeInUp 0.8s ease-out 0.45s both;
+}
+
+.heroBadge {
+  width: 52px;
+  height: 52px;
+  filter: drop-shadow(0 2px 8px rgba(91, 158, 255, 0.35));
+  transition: transform 0.25s ease;
+}
+
+.heroBadge:hover {
+  transform: scale(1.1);
+}
+
+.badgeLabel {
+  font-size: 0.82rem;
+  opacity: 0.65;
+  letter-spacing: 0.03em;
+  font-family: var(--ifm-heading-font-family);
+}
+
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
