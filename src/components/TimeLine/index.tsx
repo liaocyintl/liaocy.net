@@ -42,6 +42,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified Security – Specialty',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/68c2b2e8-9551-4398-b724-05c33d056408/linked_in_profile',
+    badgeImage: '/img/badges/aws_security_specialty.png',
   },
   {
     type: Type.Certification,
@@ -49,6 +50,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified Solutions Architect – Professional',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/8db2f461-7ccf-49bc-b160-5e58d2304482/linked_in_profile',
+    badgeImage: '/img/badges/aws_sa_professional.png',
   },
   {
     type: Type.Certification,
@@ -56,6 +58,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified Advanced Networking – Specialty',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/bcc19bc2-a57c-494d-940d-00c466963970/linked_in_profile',
+    badgeImage: '/img/badges/aws_advanced_networking.png',
   },
   {
     type: Type.Certification,
@@ -63,6 +66,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified Machine Learning Engineer – Associate',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/50d0524b-06c8-475a-9675-b44d74b597e9/linked_in_profile',
+    badgeImage: '/img/badges/aws_ml_engineer_associate.png',
   },
   {
     type: Type.Certification,
@@ -70,6 +74,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified AI Practitioner',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/881bb694-e02c-43dc-b47d-84e4c7b9545c/linked_in_profile',
+    badgeImage: '/img/badges/aws_ai_practitioner.png',
   },
   {
     type: Type.Certification,
@@ -77,6 +82,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified DevOps Engineer – Professional',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/d0e47829-aedd-4587-937e-07edab01d92e/linked_in_profile',
+    badgeImage: '/img/badges/aws_devops_professional.png',
   },
   {
     type: Type.Certification,
@@ -84,6 +90,7 @@ const ResumeList: ResumeItem[] = [
     title: 'Associate Cloud Engineer Certification',
     subtitle: 'Google Cloud',
     description: 'https://www.credly.com/badges/042526ea-3636-44bc-a259-5949ba12b031',
+    badgeImage: '/img/badges/gcp_ace.png',
   },
   {
     type: Type.Certification,
@@ -91,6 +98,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified SysOps Administrator – Associate',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/c0d83ccc-c2ad-427e-90b3-e36defb54af7/linked_in_profile',
+    badgeImage: '/img/badges/aws_sysops_associate.png',
   },
   {
     type: Type.Certification,
@@ -98,6 +106,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified Developer – Associate',
     subtitle: 'AWS Training & Certification',
     description: 'https://www.credly.com/badges/5caf6d6f-ecbf-452f-a623-27e4506ca036/linked_in_profile',
+    badgeImage: '/img/badges/aws_developer_associate.png',
   },
   {
     type: Type.Certification,
@@ -105,6 +114,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified Solutions Architect - Associate',
     subtitle: 'AWS Training & Certification',
     description: '5ZX6BRRLSMEQ17SZ',
+    badgeImage: '/img/badges/aws_sa_associate.png',
   },
   {
     type: Type.Work,
@@ -119,6 +129,7 @@ const ResumeList: ResumeItem[] = [
     title: 'AWS Certified Cloud Practitioner',
     subtitle: 'AWS Training & Certification',
     description: '',
+    badgeImage: '/img/badges/aws_cloud_practitioner.png',
   },
   {
     type: Type.Certification,
@@ -161,6 +172,7 @@ const ResumeList: ResumeItem[] = [
     title: 'Oracle Certified Java Programmer, Gold SE 11',
     subtitle: 'Oracle',
     description: 'Credential ID: 276874011GLDSE11JPN',
+    badgeImage: '/img/badges/oracle_java_gold_se11.png',
   },
   {
     type: Type.Certification,
